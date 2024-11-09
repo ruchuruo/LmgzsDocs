@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.QO4WsY4F.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"测试/文件夹2/文件2.md","filePath":"测试/文件夹2/文件2.md"}'),r={name:"测试/文件夹2/文件2.md"};function o(s,c,n,_,p,d){return a(),t("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};
