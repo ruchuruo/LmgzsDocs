@@ -1,0 +1,34 @@
+
+/* 背景图片遮罩 */
+#app {
+    /* #app::before { */
+    /* .Layout { */
+    /* .Layout::before { */
+    /* body::before { */
+    /* content: ""; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* height: var(-) */
+    /* height: var(--body-before-height); */
+    /* z-index: -1; */
+    background: rgba(255, 255, 255, 0.95);
+    /* background: rgba(255, 255, 255, 0.9); */
+    /* background: rgba(255, 255, 255, 0.8); */
+    /* background: rgba(255, 255, 255, 0.5); */
+
+    /* 当使用 backdrop-filter: blur(); 时，导航栏、侧边栏、页面导航都无法固定 */
+    /* backdrop-filter: blur(30px); */
+}
+
+/* 暗色模式 */
+.dark #app {
+    /* .dark .Layout { */
+    /* .dark body::before { */
+    /* background: rgba(0, 0, 0, 0.95); */
+    /* background: rgba(0, 0, 0, 0.9); */
+    /* background: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(27, 27, 31, 0.98);
+}
