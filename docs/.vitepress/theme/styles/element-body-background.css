@@ -1,0 +1,24 @@
+
+/* :root
+{
+    --body-before-width: 50%;
+    --body-before-height: 50%;
+} */
+
+/* 背景图片 */
+/* #app { */
+/* .Layout { */
+body {
+    background: url(http://lmgzs.fun:444/files/img/115678062_p0.png)no-repeat center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-attachment: fixed !important;
+}
+
+/* 暗色模式 */
+/* .dark #app { */
+/* #app .dark { */
+/* .dark .Layout { */
+.dark body {
+    background: url(http://lmgzs.fun:444/files/img/115678062_p1.png)no-repeat center;
+}
