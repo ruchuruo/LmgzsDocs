@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "落梦工作室"
   text: ""
-  tagline: "六杠十二纵，圆你初恋梦！"
+  tagline: "获取你需要的信息"
   image:
     light: /images/logo/落梦工作室logo_N3_[已裁剪].png
     dark: /images/icon/icon.png
@@ -28,7 +28,7 @@ features:
     link: /啸霄领域/啸霄领域文档-index
     
   - title: 其他
-    details: 我的世界模组 VitePress...
+    details: ●Apache ●Linux ●VitePress ●Windows ●我的世界模组...
     link: /其他/其他文档-index
 
   - title: 合作须知
