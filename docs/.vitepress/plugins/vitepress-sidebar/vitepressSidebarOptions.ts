@@ -76,7 +76,11 @@ export const vitepressSidebarOptions = [
         useTitleFromFrontmatter: true, // 使用Frontmatter作为侧边栏项的文本
         sortFolderTo: "bottom",        // 完成所有排序后，文件夹和文件将被分批放置。如果值为 top，则所有文件夹都放在文件上方；如果为 bottom，则放在文件下方。子文件夹中的项目也会一起排序。
         hyphenToSpace: true,           // 将文件名中的连字符转换为空格
-        excludePattern: ['*index*', '404'],   // 根据文件模式字符串数组排除文件或文件夹
+        excludePattern: [              // 根据文件模式字符串数组排除文件或文件夹
+            '*index*',
+            '404',
+            'inclusion-custom-containers.md'
+        ],
         debugPrint: true,              // 在控制台中打印生成的侧边栏结构
 
         collapsed: true,               // VitePress 默认的侧边栏折叠

@@ -37,7 +37,26 @@ export default defineConfig({
         // 导航栏
         nav: [
             { text: '主页', link: '/' },
-            { text: '文件夹', link: 'http://lmgzs.fun:444/files/' },
+            {
+                text: '资源',
+                items: [
+                    {
+                        text: '落梦其他网站',
+                        items: [
+                            { text: '文件夹', link: ' http://lmgzs.fun:444/files/', target: '_self'},
+                            { text: '落梦 Skin (皮肤站)', link: 'http://lmgzs.fun:888/' }
+                        ]
+                    },
+                    {
+                        text: '本站壁纸',
+                        items: [
+                            { text: '115678062_p0', link: 'http://lmgzs.fun:444/files/img/115678062_p0.png', target: '_self'},
+                            { text: '115678062_p1', link: 'http://lmgzs.fun:444/files/img/115678062_p1.png', target: '_self'},
+                            { text: '102545981_p0', link: 'http://lmgzs.fun:444/files/img/102545981_p0.jpg', target: '_self'}
+                        ]
+                    }
+                ]
+            },
             {
                 text: '示例',
                 items: [
@@ -50,7 +69,9 @@ export default defineConfig({
                 text: '文档',
                 items: [
                     { text: '落梦工作室', link: '/落梦工作室/落梦工作室文档-index' },
-                    { text: '啸霄领域', link: '/啸霄领域/啸霄领域文档-index' }
+                    { text: '啸霄领域', link: '/啸霄领域/啸霄领域文档-index' },
+                    { text: '其他', link: '/其他/其他文档-index' },
+                    { text: '合作须知', link: '/合作须知/合作须知-index' }
                 ]
             }
         ],
