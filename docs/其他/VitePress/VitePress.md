@@ -20,6 +20,16 @@
 - [使用 - bilibili-fill](https://yesicon.app/ri/bilibili-fill)
 :::
 
+## 字体
+::: info azuki_font
+- [官网](http://azukifont.com/)
+- [./readme.txt](./字体/azuki_font/readme.txt)
+:::
+::: info uzura_font
+- [官网](http://azukifont.com/)
+- [./readme.txt](./字体/uzura_font/readme.txt)
+:::
+
 ## 包
 
 ### 侧边栏生成
