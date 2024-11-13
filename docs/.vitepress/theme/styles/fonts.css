@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'azuki_font';
+    src: url('/fonts/azuki_font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'uzura_font';
+    src: url('/fonts/uzura_font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '方正字汇-雨木圆圆体-简';
+    src: url('/fonts/方正字汇-雨木圆圆体-简.TTF') format('truetype');
+}
+
+
+
+
+
+:root {
+    /* normal text font */
+    /* --vp-font-family-base: uzura_font, 方正字汇-雨木圆圆体-简; */
+    /* --vp-font-family-base: 方正字汇-雨木圆圆体-简; */
+    /* --vp-font-family-base: sans-serif, uzura_font; */
+
+    /* code font */
+    /* --vp-font-family-mono: azuki_font; */
+}
+
+.name {
+    font-family: uzura_font;
+}
