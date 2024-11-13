@@ -21,4 +21,5 @@ body {
 /* .dark .Layout { */
 .dark body {
     background: url(http://lmgzs.fun:444/files/img/115678062_p1.png)no-repeat center;
+    background-size: cover;
 }
