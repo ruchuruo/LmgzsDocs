@@ -421,8 +421,8 @@ DefaultIcon /apaxy/theme/icons/empty.svg
 # theme files
 #
 
-HeaderName /apaxy/theme/header.html
-ReadmeName /apaxy/theme/footer.html
+HeaderName /apaxy/theme/header-lightgallery.html
+ReadmeName /apaxy/theme/footer-lightgallery.html
 IndexStyleSheet /apaxy/theme/style.css
 
 
