@@ -54,6 +54,13 @@ export default defineConfig({
                             { text: '115678062_p1', link: 'http://lmgzs.fun:444/files/img/115678062_p1.png', target: '_self'},
                             { text: '102545981_p0', link: 'http://lmgzs.fun:444/files/img/102545981_p0.jpg', target: '_self'}
                         ]
+                    },
+                    {
+                        text: '实用网站',
+                        items: [
+                            { text: '网站收藏夹', link: '/网站收藏夹/网站收藏夹-index' },
+                            { text: '静态站点', link: '/静态站点/静态站点-index' }
+                        ]
                     }
                 ]
             },
