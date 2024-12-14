@@ -4,8 +4,8 @@ hero:
     name: "成员"
 ---
 
-::: tip 人是真的 但 介绍不必当真
-:::
+<!-- 包含 markdown 文件 可以像这样在一个 markdown 文件中包含另一个 markdown 文件，甚至是内嵌的。-->
+<!--@include: ./inclusion.md{25,26}-->
 
 ## [开发者](./开发者/开发者.md)
 
