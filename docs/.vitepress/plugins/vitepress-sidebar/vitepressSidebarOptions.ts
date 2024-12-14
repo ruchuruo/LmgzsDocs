@@ -79,7 +79,7 @@ export const vitepressSidebarOptions = [
         excludePattern: [              // 根据文件模式字符串数组排除文件或文件夹
             '*index*',
             '404',
-            'inclusion-custom-containers.md'
+            'inclusion.md'
         ],
         debugPrint: true,              // 在控制台中打印生成的侧边栏结构
 
