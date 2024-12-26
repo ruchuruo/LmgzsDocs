@@ -127,7 +127,7 @@ export default defineConfig({
 
         footer: {
             message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2023-present 落梦工作室'
+            copyright: 'Copyright © 2019-present 落梦工作室'
         }
     },
 

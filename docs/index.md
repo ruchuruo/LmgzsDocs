@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "落梦工作室"
   text: ""
-  tagline: "获取你需要的信息"
+  tagline: "空旷失落之境，寂寥无人迹，昔日梦亦成灰"
   image:
     light: /images/logo/落梦工作室logo_N3_[已裁剪].png
     dark: /images/icon/icon.png
