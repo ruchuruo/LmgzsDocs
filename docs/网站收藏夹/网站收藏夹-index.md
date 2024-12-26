@@ -19,6 +19,8 @@ hero:
 - [中文维基](https://zh.minecraft.wiki/)
 - [资源网站](https://www.planetminecraft.com/)
 - [自定义合成表](https://crafting.thedestruc7i0n.ca/)
+- [Plotz Modeller For Minecraft](https://www.plotz.co.uk/)
+- [圆形生成器工具](https://purecalculators.com/)
 :::
 ::: info 服务端
 - [墨端](https://mohistmc.com/)
