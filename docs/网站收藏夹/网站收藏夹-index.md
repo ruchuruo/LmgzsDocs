@@ -68,4 +68,6 @@ hero:
 - [在线转换音频文件](https://www.aconvert.com/cn/audio/)
 - [MP4到MP3转换器](https://www.freeconvert.com/zh/mp4-to-mp3)
 - [IPv6 连接测试](https://test-ipv6.com/)
+- [微步在线云沙箱](https://s.threatbook.com/)
+- [SOSO云盘提取码查询](https://www.sosoyunpan.com/)
 :::
