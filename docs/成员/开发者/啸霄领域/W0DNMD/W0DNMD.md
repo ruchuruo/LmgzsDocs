@@ -1,5 +1,5 @@
 ::: info W0DNMD
-![头像](/images/avatars/QQ2447890197.jpg =100x)
+![头像](/成员/开发者/啸霄领域/W0DNMD/media/images/avatars/processed/QQ2447890197.jpg =100x)
 ::: details 介绍
 ::: tabs
 == 绝对统治
