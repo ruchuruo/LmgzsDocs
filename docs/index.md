@@ -20,7 +20,7 @@ hero:
 
 features:
   - title: "落梦工作室"
-    details: 公告 帮助 更新日志 3D地图 贡献
+    details: 公告 帮助 更新日志 贡献
     link: /落梦工作室/落梦工作室文档-index
 
   - title: 啸霄领域
