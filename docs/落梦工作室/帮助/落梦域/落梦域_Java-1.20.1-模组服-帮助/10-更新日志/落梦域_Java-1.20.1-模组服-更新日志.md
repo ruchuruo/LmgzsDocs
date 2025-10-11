@@ -2,6 +2,129 @@
 # 落梦域_Java-1.20.1-模组服-更新日志
 ---
 
+### 2025年10月11日
+```c
+模组更新
+
+旅行地图 
+    核心版本升级 需要重新修改设置 
+    添加 绑定热键
+    原 绑定热键 不受影响
+
+跑酷
+    如果之前修改过配置文件 需要重新修改
+
+必装模组 更新 23
+↑ Latest ↑ cs[传送石碑]waystones-forge-1.20-14.1.3.jar
+            添加 石碑
+
+↑ Latest ↑ cs[农夫乐事]FarmersDelight-1.20.1-1.2.4.jar
+            无新物品
+
+↑ Latest ↑ cs[暮色森林]twilightforest-1.20.1-4.3.2145-universal.jar
+            添加 方块
+
+↑ Latest ↑ cs[永恒枪械工坊]tacz-1.20.1-1.1.4-hotfix-all.jar
+            添加 枪械
+
+↑ Latest ↑ cs[沉浸式相机]exposure-1.20.1-1.6.0-forge.jar
+            添加 新功能 自定义照片
+
+↑ 1.3.3  ↑ cs[沉浸式飞机]immersive_aircraft-1.0.1+1.20.1-forge.jar
+            添加 新飞机
+
+↑ Latest ↑ cs[灾变]L_Enders_Cataclysm-2.62.jar
+            添加 物品 方块 boss
+
+↑ Latest ↑ cs[精妙背包]sophisticatedbackpacks-1.20.1-3.23.6.1211.jar
+            添加 绑定热键
+            添加 物品
+
+↑ Latest ↑ cs[网络音乐机]netmusic-forge-1.20.1-1.1.5-release.jar
+            支持 网易云播客
+
+↑ Latest ↑ cs[跑酷]ParCool-1.20.1-3.3.1.0.jar
+            ?
+
+↑ Latest ↑ cs[车万女仆]touhoulittlemaid-1.20.1-release-1.2.1.jar
+            内容很多
+
+↑ Latest ↑ cs[新生魔艺]ars_nouveau-1.20.1-4.12.6-all.jar
+            ?
+
+↑ Latest ↑ cs_LIB[帕秋莉手册]Patchouli-1.20.1-84-FORGE.jar
+↑ Latest ↑ cs_LIB[狮子鱼]lionfishapi-2.4.jar
+↑ Latest ↑ cs_LIB[精妙核心]sophisticatedcore-1.20.1-1.2.23.902.jar
+↑ Latest ↑ cs_LIB[饰品]curios-forge-5.9.1+1.20.1.jar
+↑ Latest ↑ cs_LIB[香油]balm-forge-1.20.1-7.3.6-all.jar
+
+↑ Latest ↑ c[是，史蒂夫模型]yesstevemodel-forge-1.20-2.4.1-release.jar
+            内容很多
+
+
+
+必装模组 不更新 3
+           cs[搬运]carryon-forge-1.20.1-2.1.2.7.jar
+             无新版
+
+           cs[滑翔伞]Paraglider-forge-20.1.3.jar
+             无新版
+
+           cs[机械动力]create-1.20.1-6.0.4.jar
+             有新版 有bug
+
+
+
+必装模组 计划删除 2
+-          cs[涂鸦]mcpaint-1.20.1-1.0.jar
+             停更 不支持光影
+-          cs[这坨画]zetter-1.20.1-0.21.5.jar
+             停更 替代:
+                exposure,mcpaint-v0.8.1-datapack.zip
+                mc-paint-v0.8.1-resourcepack.zip
+
+必装资源包 计划添加 1
++          https://www.mcmod.cn/class/15850.html
+
+
+
+辅助模组 更新
+↑ Latest ↑ c[JEI物品管理器]jei-1.20.1-forge-15.20.0.106.jar
+↑ Latest ↑ c[LEAWIND的第三人称视角]leawind_third_person-v2.0.8-mc1.20.1-forge.jar
+↑ Latest ↑ c[旅行地图]journeymap-1.20.1-5.9.17-forge.jar
+            核心版本升级
+            添加 绑定热键
+
+↑ Latest ↑ c[极简血量显示]Neat-1.20-35-FORGE.jar
+
+辅助模组 不更新
+           c[Just缩放]justzoom_forge_2.0.0_MC_1.20.1.jar
+           c[tweakeroo]tweakeroo-forge-1.20.1-0.17.0-dev.20230621.160204.jar
+           c[录像回放]reforgedplaymod-1.20.1-0.3.1.jar
+           c[投影]litematica-forge-1.20.1-0.15.0-dev.20230619.184738.jar
+           c[滚筒飞行]do_a_barrel_roll-forge-3.5.6+1.20.1.jar
+           c[遥远的地平线]DistantHorizons-fabric-forge-2.3.0-b-1.20.1.jar
+           c_LIB[Architectury API]architectury-9.2.14-forge.jar
+           c_LIB[Konkrete]konkrete_forge_1.8.0_MC_1.20-1.20.1.jar
+           c_LIB[malilib]malilib-forge-1.20.1-0.16.0-dev.20230629.190252.jar
+           c_S[铷-光影]oculus-mc1.20.1-1.8.0.jar
+           c_S[铷-扩展_渲染设置]rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar
+           c_S[铷-渲染]embeddium-0.3.31+mc1.20.1.jar
+           c_S[镁铷_动态光源]dynamiclightsreforged-1.20.1_v1.6.0.jar
+
+
+
+枪包 更新 4
+    NPGP2.0.zip
+    [Tacz1.1.5+]CUST GunsmithPack ver1.1.5.zip
+    [Tacz1.1.5+]EMX-Arms GunsPack ver1.1.5.zip.zip
+    [Tacz1.1.5+]TRIS-dyna GunsPack ver1.1.5.zip.zip
+
+枪包 添加 1
+    Ars Armorer_v1.0.0_for115.zip
+
+```
+
 ### 2025年5月10日
 ```c
 bluemap 删除所有地图数据并重新生成
