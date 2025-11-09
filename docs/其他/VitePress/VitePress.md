@@ -18,6 +18,7 @@
 ::: info yesicon.app
 - [官网](https://yesicon.app/)
 - [使用 - bilibili-fill](https://yesicon.app/ri/bilibili-fill)
+- [使用 - tiktok-icon](https://yesicon.app/logos/tiktok-icon)
 :::
 
 ## 字体
