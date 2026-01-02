@@ -16,7 +16,7 @@ export const vitepressSidebarOptions = [
             '*index*',
             '404'
         ],
-        debugPrint: true, // 在控制台中打印生成的侧边栏结构
+        debugPrint: false, // 在控制台中打印生成的侧边栏结构
     },
     {
         documentRootPath: 'docs',                // 文档根路径
@@ -33,7 +33,7 @@ export const vitepressSidebarOptions = [
             '*index*',
             '404'
         ],
-        debugPrint: true, // 在控制台中打印生成的侧边栏结构
+        debugPrint: false, // 在控制台中打印生成的侧边栏结构
     },
     {
         documentRootPath: 'docs',                // 文档根路径
@@ -50,7 +50,7 @@ export const vitepressSidebarOptions = [
             '*index*',
             '404'
         ],
-        debugPrint: true, // 在控制台中打印生成的侧边栏结构
+        debugPrint: false, // 在控制台中打印生成的侧边栏结构
     },
     {
         documentRootPath: 'docs',                // 文档根路径
@@ -67,7 +67,7 @@ export const vitepressSidebarOptions = [
             '*index*',
             '404'
         ],
-        debugPrint: true, // 在控制台中打印生成的侧边栏结构
+        debugPrint: false, // 在控制台中打印生成的侧边栏结构
     },
     {
         documentRootPath: 'docs',                // 文档根路径
@@ -84,7 +84,7 @@ export const vitepressSidebarOptions = [
             '*index*',
             '404'
         ],
-        debugPrint: true, // 在控制台中打印生成的侧边栏结构
+        debugPrint: false, // 在控制台中打印生成的侧边栏结构
     },
     {
         documentRootPath: 'docs',                // 文档根路径
@@ -102,6 +102,6 @@ export const vitepressSidebarOptions = [
             '404',
             'inclusion.md'
         ],
-        debugPrint: true, // 在控制台中打印生成的侧边栏结构
+        debugPrint: false, // 在控制台中打印生成的侧边栏结构
     }
 ]
