@@ -48,11 +48,9 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: '本站壁纸',
+                        text: '壁纸',
                         items: [
-                            { text: '115678062_p0', link: 'http://lmgzs.fun:441/imgs/pixiv/115678062_p0.png', target: '_self'},
-                            { text: '115678062_p1', link: 'http://lmgzs.fun:441/imgs/pixiv/115678062_p1.png', target: '_self'},
-                            { text: '102545981_p0', link: 'http://lmgzs.fun:441/imgs/pixiv/102545981_p0.jpg', target: '_self'}
+                            { text: '本站壁纸', link: '/其他/壁纸/壁纸', target: '_self'}
                         ]
                     },
                     {

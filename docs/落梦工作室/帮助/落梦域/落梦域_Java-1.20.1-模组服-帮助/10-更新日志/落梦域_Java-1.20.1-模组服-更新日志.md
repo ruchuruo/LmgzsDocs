@@ -2,6 +2,31 @@
 # 落梦域_Java-1.20.1-模组服-更新日志
 ---
 
+### 2025年12月21日
+```c
+模组更新
+
+必装模组 更新 5
+    cs[永恒枪械工坊]tacz-1.20.1-1.1.6-hotfix.jar    // [!code --]
+    cs[永恒枪械工坊]tacz-1.20.1-1.1.7-release.jar   // [!code ++]
+
+    cs[网络音乐机]netmusic-1.1.8-forge+mc1.20.1.jar // [!code --]
+    cs[网络音乐机]netmusic-1.2.1-forge+mc1.20.1.jar // [!code ++]
+
+    cs[跑酷]ParCool-1.20.1-3.4.1.2.jar              // [!code --]
+    cs[跑酷]ParCool-1.20.1-3.4.2.0.jar              // [!code ++]
+
+    cs[车万女仆]touhoulittlemaid-1.4.0-forge+mc1.20.1.jar   // [!code --]
+    cs[车万女仆]touhoulittlemaid-1.4.6-forge+mc1.20.1.jar   // [!code ++]
+
+    c[是史蒂夫模型]ysm-2.5.1-forge+mc1.20.1-release.jar // [!code --]
+    c[是史蒂夫模型]ysm-2.5.3-forge+mc1.20.1-release.jar // [!code ++]
+
+枪包 更新 1
+    NPGP2.0.zip             // [!code --]
+    [NPGP3.2]Release.zip    // [!code ++]
+```
+
 ### 2025年10月11日
 ```c
 模组更新
