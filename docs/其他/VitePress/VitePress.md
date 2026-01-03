@@ -32,7 +32,6 @@
 :::
 
 ## 包
-
 ### 侧边栏生成
 ::: info jooy2/vitepress-sidebar
 - [github](https://github.com/jooy2/vitepress-sidebar)
@@ -40,8 +39,20 @@
 - [./README.md](./包/vitepress-sidebar/README.md)
 :::
 
-### Markdown It
+### 选项卡
+::: info vitepress-plugin-tabs
+- [github](https://github.com/sapphi-red/vitepress-plugins)
+- [./official-website.md](./包/vitepress-plugin-tabs/official-website.md)
+- [./README.md](./包/vitepress-plugin-tabs/README.md)
+:::
 
+### 图片查看
+::: info vitepress-plugin-image-viewer
+- [github](https://github.com/T-miracle/vitepress-plugin-image-viewer)
+- [./README.md](./包/vitepress-plugin-image-viewer/README.md)
+:::
+
+### Markdown It
 #### 设置图片尺寸
 ::: info @mdit/plugin-img-size
 - [mdit-plugins.github.io](https://mdit-plugins.github.io/img-size.html)
@@ -49,14 +60,7 @@
 - [./VitePress中使用](./包/markdown-it/@mdit/plugin-img-size/VitePress中使用.md)
 :::
 
-### 选项卡
-::: info vitepress-plugin-tabs
-- [./official-website.md](./包/vitepress-plugin-tabs/official-website.md)
-- [./README.md](./包/vitepress-plugin-tabs/README.md)
-:::
-
 ### TypeScript
-
 #### Node.js 类型定义
 ::: info @types/node
 - [github](https://github.com/DefinitelyTyped/DefinitelyTyped)

@@ -138,7 +138,7 @@ export default defineConfig({
         // 为每个代码块启用行号
         lineNumbers: true,
 
-        config(md: MarkdownIt) {
+        config(md) {
             // 插件 设置图片尺寸 @mdit/plugin-img-size
             md.use(imgSize);
 
