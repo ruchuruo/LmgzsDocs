@@ -10,7 +10,7 @@ export const vitepressSidebarOptions = [
         useTitleFromFrontmatter: true,           // 使用Frontmatter作为侧边栏项的文本
         hyphenToSpace: true,                     // 将文件名中的连字符转换为空格
         sortMenusOrderNumericallyFromTitle: true,//排序 按照文件名开头数字
-        sortFolderTo: "bottom",                  // 排序 文件在文件夹上方
+        sortFolderTo: "bottom" as const,         // 排序 文件在文件夹上方
         collapsed: true,                         // 侧边栏折叠
         excludePattern: [                        // 根据文件模式字符串数组排除文件或文件夹
             '*index*',
@@ -27,7 +27,7 @@ export const vitepressSidebarOptions = [
         useTitleFromFrontmatter: true,           // 使用Frontmatter作为侧边栏项的文本
         hyphenToSpace: true,                     // 将文件名中的连字符转换为空格
         sortMenusOrderNumericallyFromTitle: true,//排序 按照文件名开头数字
-        sortFolderTo: "bottom",                  // 排序 文件在文件夹上方
+        sortFolderTo: "bottom" as const,         // 排序 文件在文件夹上方
         collapsed: true,                         // 侧边栏折叠
         excludePattern: [                        // 根据文件模式字符串数组排除文件或文件夹
             '*index*',
@@ -44,7 +44,7 @@ export const vitepressSidebarOptions = [
         useTitleFromFrontmatter: true,           // 使用Frontmatter作为侧边栏项的文本
         hyphenToSpace: true,                     // 将文件名中的连字符转换为空格
         sortMenusOrderNumericallyFromTitle: true,//排序 按照文件名开头数字
-        sortFolderTo: "bottom",                  // 排序 文件在文件夹上方
+        sortFolderTo: "bottom" as const,         // 排序 文件在文件夹上方
         collapsed: true,                         // 侧边栏折叠
         excludePattern: [                        // 根据文件模式字符串数组排除文件或文件夹
             '*index*',
@@ -61,7 +61,7 @@ export const vitepressSidebarOptions = [
         useTitleFromFrontmatter: true,           // 使用Frontmatter作为侧边栏项的文本
         hyphenToSpace: true,                     // 将文件名中的连字符转换为空格
         sortMenusOrderNumericallyFromTitle: true,//排序 按照文件名开头数字
-        sortFolderTo: "bottom",                  // 排序 文件在文件夹上方
+        sortFolderTo: "bottom" as const,         // 排序 文件在文件夹上方
         collapsed: true,                         // 侧边栏折叠
         excludePattern: [                        // 根据文件模式字符串数组排除文件或文件夹
             '*index*',
@@ -78,7 +78,7 @@ export const vitepressSidebarOptions = [
         useTitleFromFrontmatter: true,           // 使用Frontmatter作为侧边栏项的文本
         hyphenToSpace: true,                     // 将文件名中的连字符转换为空格
         sortMenusOrderNumericallyFromTitle: true,//排序 按照文件名开头数字
-        sortFolderTo: "bottom",                  // 排序 文件在文件夹上方
+        sortFolderTo: "bottom" as const,         // 排序 文件在文件夹上方
         collapsed: true,                         // 侧边栏折叠
         excludePattern: [                        // 根据文件模式字符串数组排除文件或文件夹
             '*index*',
@@ -95,7 +95,7 @@ export const vitepressSidebarOptions = [
         useTitleFromFrontmatter: true,           // 使用Frontmatter作为侧边栏项的文本
         hyphenToSpace: true,                     // 将文件名中的连字符转换为空格
         sortMenusOrderNumericallyFromTitle: true,//排序 按照文件名开头数字
-        sortFolderTo: "bottom",                  // 排序 文件在文件夹上方
+        sortFolderTo: "bottom" as const,         // 排序 文件在文件夹上方
         collapsed: true,                         // 侧边栏折叠
         excludePattern: [                        // 根据文件模式字符串数组排除文件或文件夹
             '*index*',
