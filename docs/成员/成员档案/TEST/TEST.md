@@ -1,5 +1,5 @@
 ::: info TEST
-![头像](/images/icon/1613988887382.png =100x)
+![头像 =100x](/images/icon/1613988887382.png)
 ::: details 介绍
 <!-- ::: info 介绍 -->
 ::: tabs

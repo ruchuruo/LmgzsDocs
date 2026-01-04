@@ -7,7 +7,7 @@ import { vitepressSidebarOptions } from "./plugins/vitepress-sidebar/vitepressSi
 // 包 markdown-it
 import MarkdownIt from "markdown-it";
 // 插件 设置图片尺寸 @mdit/plugin-img-size
-import { imgSize } from "@mdit/plugin-img-size";
+import { legacyImgSize, imgSize, obsidianImgSize } from "@mdit/plugin-img-size";
 // 选项卡 vitepress-plugin-tabs
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 
@@ -140,7 +140,7 @@ export default defineConfig({
 
         config(md) {
             // 插件 设置图片尺寸 @mdit/plugin-img-size
-            md.use(imgSize);
+            md.use(imgSize, obsidianImgSize);
 
             // 选项卡 vitepress-plugin-tabs
             md.use(tabsMarkdownPlugin);
