@@ -1,5 +1,5 @@
 ::: info a
-![头像](/成员/成员档案/a/media/images/avatars/processed/QQ2085626936.jpg =100x)
+![头像 =100x](/成员/成员档案/a/media/images/avatars/processed/QQ2085626936.jpg)
 ::: details 介绍
 ::: tabs
 == 绳结情深

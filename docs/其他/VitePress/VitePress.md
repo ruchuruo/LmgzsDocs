@@ -52,11 +52,13 @@
 - [./README.md](./包/vitepress-plugin-image-viewer/README.md)
 :::
 
-### Markdown It
+### [Markdown It](./包/markdown-it/README.md)
 #### 设置图片尺寸
 ::: info @mdit/plugin-img-size
 - [mdit-plugins.github.io](https://mdit-plugins.github.io/img-size.html)
 - [./README.md](./包/markdown-it/@mdit/plugin-img-size/README.md)
+- [./img-size.md](./包/markdown-it/@mdit/plugin-img-size/img-size.md)
+- [./img-size_zh.md](./包/markdown-it/@mdit/plugin-img-size/img-size_zh.md)
 - [./VitePress中使用](./包/markdown-it/@mdit/plugin-img-size/VitePress中使用.md)
 :::
 

@@ -1,5 +1,5 @@
 ::: info MewingBoot58565
-![头像](/成员/成员档案/MewingBoot58565/media/images/avatars/processed/QQ2516929335__1.jpg =100x)
+![头像 =100x](/成员/成员档案/MewingBoot58565/media/images/avatars/processed/QQ2516929335__1.jpg)
 ::: details 介绍
 ::: tabs
 == 反击宣言

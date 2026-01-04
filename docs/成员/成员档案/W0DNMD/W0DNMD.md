@@ -1,5 +1,5 @@
 ::: info W0DNMD
-![头像](/成员/成员档案/W0DNMD/media/images/avatars/processed/QQ2447890197.jpg =100x)
+![头像 =100x](/成员/成员档案/W0DNMD/media/images/avatars/processed/QQ2447890197.jpg)
 ::: details 介绍
 ::: tabs
 == 绝对统治

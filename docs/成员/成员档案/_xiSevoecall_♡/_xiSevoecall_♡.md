@@ -1,5 +1,5 @@
 ::: info _xiSevoecall_♡
-![头像](/成员/成员档案/_xiSevoecall_♡/media/images/avatars/processed/QQ2821734822.jpg =100x)
+![头像 =100x](/成员/成员档案/_xiSevoecall_♡/media/images/avatars/processed/QQ2821734822.jpg)
 ::: details 介绍
 ::: tabs
 == 怒潮对决
@@ -14,7 +14,7 @@
 
 随着狂雷震的情绪越发激动，绮纱的脸上浮现出一抹更加得意的笑容，她继续说道：“看着大叔又气又无奈的表情真是可笑呢”
 
-![图片](/images/emotionsm/qq_234253/713c78fe91b4c8f58bad47912b088f62_aio.png =100x)
+![图片 =100x](/images/emotionsm/qq_234253/713c78fe91b4c8f58bad47912b088f62_aio.png)
 
 == 享受
 服主跑路了
