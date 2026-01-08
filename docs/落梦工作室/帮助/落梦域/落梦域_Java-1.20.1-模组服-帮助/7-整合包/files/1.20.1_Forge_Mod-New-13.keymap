@@ -1,0 +1,311 @@
+{
+  "#version": "3.5.3",
+  "#config": {
+    "uimode": "tab",
+    "layout": "pc",
+    "layers": "10",
+    "view": "k",
+    "kbsize": 3,
+    "kbext": true,
+    "kbhint": true,
+    "showall": false,
+    "ks1": "0.75",
+    "kw1": "3",
+    "kh1": "3",
+    "ks2": "0.9",
+    "kw2": "5",
+    "kh2": "5",
+    "kt2": "0.75",
+    "c0": "black",
+    "c1": "lightblue",
+    "c2": "lightseagreen",
+    "c3": "black",
+    "c4": "whitesmoke",
+    "kb-bgc": "lightgray",
+    "kb-bdc": "gray",
+    "cols": 2,
+    "extkeys": [
+      "#鼠标",
+      "LB",
+      "RB",
+      "MB",
+      "WhlUp",
+      "WhlDn"
+    ],
+    "modkeys": [],
+    "modkey_colors": {
+      "Alt": "#e53935",
+      "Ctrl": "#00c853",
+      "Shift": "#1976d2",
+      "Win": "#7c4dff",
+      "RAlt": "#e53935/",
+      "RCtrl": "#00c853/",
+      "RShift": "#1976d2/",
+      "opt": "#e53935",
+      "ctrl": "#00c853",
+      "shift": "#1976d2",
+      "cmd": "#7c4dff",
+      "r-opt": "#e53935/",
+      "r-ctrl": "#00c853/",
+      "r-shift": "#1976d2/",
+      "r-cmd": "#7c4dff/",
+      "fn": "#ffc400"
+    },
+    "modkey_chars": {
+      "Alt": "A",
+      "Ctrl": "C",
+      "Shift": "S",
+      "Win": "W",
+      "RAlt": "a",
+      "RCtrl": "c",
+      "RShift": "s",
+      "opt": "o",
+      "ctrl": "c",
+      "shift": "s",
+      "cmd": "m",
+      "r-opt": "O",
+      "r-ctrl": "C",
+      "r-shift": "S",
+      "r-cmd": "M",
+      "fn": "f"
+    },
+    "modkey_mode": "chr",
+    "modkey_clr": true,
+    "modkey_clr_list": true,
+    "mod-cs2": "0.7",
+    "mod-ds2": "0.5",
+    "groups": {
+      "系统快捷键": [
+        "    #ccccccff",
+        ""
+      ],
+      "移动": [
+        "          #C9FFCC",
+        ""
+      ],
+      "游戏内容": [
+        "      #BDF2C0",
+        ""
+      ],
+      "物品栏": [
+        "        #B0E6B3",
+        ""
+      ],
+      "创造模式": [
+        "      #000000",
+        ""
+      ],
+      "多人游戏": [
+        "      #A4D9A7",
+        ""
+      ],
+      "杂项": [
+        "          #97CC9A",
+        ""
+      ],
+      "Carry On": [
+        "                  #FFFF00",
+        ""
+      ],
+      "Create": [
+        "                    #FFFF0D",
+        ""
+      ],
+      "Do a Barrel Roll": [
+        "          #FFFF1A",
+        ""
+      ],
+      "Immersive Aircraft": [
+        "        #000000",
+        ""
+      ],
+      "JEI": [
+        "                       #FFFF26",
+        ""
+      ],
+      "journeymap": [
+        "                #FFFF33",
+        ""
+      ],
+      "justzoom": [
+        "                  #FFFF40",
+        ""
+      ],
+      "leawind_third_person": [
+        "      #FFFF4C",
+        ""
+      ],
+      "oculus": [
+        "                    #FFFF59",
+        ""
+      ],
+      "replaymod": [
+        "                 #FFFF66",
+        ""
+      ],
+      "ars_nouveau": [
+        "               #FFFF73",
+        ""
+      ],
+      "ysm": [
+        "                       #FFFF80",
+        ""
+      ],
+      "tacz": [
+        "                      #FFFF8C",
+        ""
+      ],
+      "sophisticatedbackpacks": [
+        "    #FFFF99",
+        ""
+      ],
+      "ParCool": [
+        "                   #FFFFA6",
+        ""
+      ],
+      "MASA": [
+        "                      #FFFFB2",
+        ""
+      ],
+      "多模组共用": [
+        "                 #aabbcc",
+        ""
+      ]
+    },
+    "comment-font-size": "0.9",
+    "show_comment": false,
+    "show_cnt": true,
+    "list_by": "group"
+  },
+  "#0": {
+    "1": "快捷栏1\n::物品栏",
+    "2": "快捷栏2\n::物品栏",
+    "3": "快捷栏3\n::物品栏",
+    "4": "快捷栏4\n::物品栏",
+    "5": "快捷栏5\n::物品栏",
+    "6": "快捷栏6\n::物品栏",
+    "7": "快捷栏7\n::物品栏",
+    "8": "快捷栏8\n::物品栏",
+    "9": "快捷栏9\n::物品栏",
+    "W": "向前移动\n\n向前移动\n- 原版\n\n推力 向前\n(Thrust Forward)\n- 模组 c[滚筒飞行]do_a_barrel_roll\n- 使用条件\n-- 鞘翅飞行状态下\n-- 默认配置文件下仅管理员可用\n-- 不受 滚筒飞行 切换启用(Toggle Enabled) 影响\n\n拉起控制杆\n- 模组 cs[沉浸式飞机]immersive_aircraft\n- 使用条件\n-- 驾驶特定载具\n-- 载具工作时\n\n思索\n- 模组 [思索]ponder\n- 使用条件\n-- 开启物品栏\n-- 鼠标悬停在支持的物品上\n::移动",
+    "#name": "全部",
+    "D": "向右移动\n\n向右移动\n- 原版\n\n右偏航\n(Yaw Right)\n- 模组 c[滚筒飞行]do_a_barrel_roll\n- 使用条件\n-- 鞘翅飞行状态下\n-- 需要启用 滚筒飞行 切换启用(Toggle Enabled)\n::移动",
+    "A": "向左移动\n\n向左移动\n- 原版\n\n左偏航\n(Yaw Left)\n- 模组 c[滚筒飞行]do_a_barrel_roll\n- 使用条件\n-- 鞘翅飞行状态下\n-- 需要启用 滚筒飞行 切换启用(Toggle Enabled)\n\n添加/删除书签\n- 模组 c[JEI物品管理器]jei\n- JEI(鼠标悬停)\n- 使用条件\n-- 开启物品栏\n-- 在物品栏界面鼠标悬停在物品上\n-- 或在模组界面鼠标悬停在物品上\n::移动",
+    "S": "向后移动\n\n向后移动\n- 原版\n\n推力 向后\n(Thrust Backward)\n- 模组 c[滚筒飞行]do_a_barrel_roll\n- 使用条件\n-- 鞘翅飞行状态下\n-- 默认配置文件下仅管理员可用\n-- 不受 滚筒飞行 切换启用(Toggle Enabled) 影响\n\n推动控制杆\n- 模组 cs[沉浸式飞机]immersive_aircraft\n- 使用条件\n-- 驾驶特定载具\n-- 载具工作时\n::移动",
+    "Ctrl": "潜行\n::移动",
+    "Shift": "疾跑\n\n疾跑\n- 原版\n\n打开相机控制模式\n- 模组 cs[拾光定影]exposure\n- 调整相机参数\n- 使用条件\n-- 在拍照界面\n\n滑墻(贴墻滑降)\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n\n猫挂(边缘悬挂)\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n\n疾跑\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n::移动",
+    "Space": "跳跃\n\n跳跃\n- 原版\n\n蹬墻跳\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n::移动",
+    "RB": "使用物品/放置方块\n\n使用物品/放置方块\n- 原版\n\n作弊获得 1 个物品\n- 模组 c[JEI物品管理器]jei\n- JEI(作弊模式)\n- 使用条件\n-- 开启物品栏\n-- 开启模组作弊模式\n-- 在模组界面点击物品\n\n清除搜索过滤器\n- 模组 c[JEI物品管理器]jei\n- JEI(搜索过滤器)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n-- 选中搜索框\n\n显示物品用途\n- 模组 c[JEI物品管理器]jei\n- JEI(鼠标悬停)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面鼠标悬停在物品上\n\n瞄准\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n\n使用滑索\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n-- 准星对准指定物品时\n\n挂杠(吊挂)\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n\n撑越(撑手跳)\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n::游戏内容",
+    "LB": "攻击/摧毁\n\n攻击/摧毁\n- 原版\n\n作弊获得 1 个物品\n- 模组 c[JEI物品管理器]jei\n- JEI(作弊模式)\n- 使用条件\n-- 开启物品栏\n-- 开启模组作弊模式\n-- 在模组界面点击物品\n\n显示物品配方\n- 模组 c[JEI物品管理器]jei\n- JEI(鼠标悬停)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面鼠标悬停在物品上\n\n射击\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::游戏内容",
+    "MB": "选取方块\n\n选取方块\n- 原版\n- 使用条件\n-- 创造模式\n-- 准星对准方块\n\n作弊获得 1 组物品\n- 模组 c[JEI物品管理器]jei\n- JEI(作弊模式)\n- 使用条件\n-- 开启物品栏\n-- 开启模组作弊模式\n-- 在模组界面点击物品\n::游戏内容",
+    "F": "与副手交换物品\n::物品栏",
+    "Q": "丢弃所选物品\n::物品栏",
+    "E": "开启/关闭物品栏\n::物品栏",
+    "Enter": "打开聊天栏\n::多人游戏",
+    "Tab": "显示玩家列表\n::多人游戏",
+    "P": "社交屏幕\n::多人游戏",
+    "/": "输入命令\n::多人游戏",
+    "Ctrl+P": "Paraglider 设置\n\nParaglider 设置\n(Paraglider Settings)\n- 模组 cs[滑翔伞]Paraglider\n::杂项",
+    "F11": "切换全屏显示\n::杂项",
+    "Num3": "切换电影视角\n\n镜头平衡过渡\n::杂项",
+    "F5": "切换视角\n\n切换视角\n- 原版\n\n越肩视角\n- 模组 c[LEAWIND的第三人称视角]leawind_third_person\n::杂项",
+    "F2": "截图\n::杂项",
+    "L": "进度\n::杂项",
+    "Shift+RB": "搬运\n\n搬运\n(carry)\n- 模组 cs[搬运]carryon\n- 搬运方块/实体\n- 使用条件\n-- 在目标近距离\n-- 准星对准方块/实体\n::Carry On",
+    "Alt": "[多模组共用]\n\n匍匐(爬行)\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n\n蓝图工具菜单/访问附近的工具箱\n- 模组 cs[机械动力]create\n- 使用条件\n-- 手持指定物品时\n-- 或在指定物品旁\n::多模组共用",
+    "Menu": "滚筒飞行 切换启用\n\n滚筒飞行 切换启用\n(Toggle Enabled)\n- 模组 c[滚筒飞行]do_a_barrel_roll\n- 仅切换启用相机滚筒视角 不影响该模组其他功能\n::Do a Barrel Roll",
+    "Shift+X": "离开载具\n\n离开载具\n- 模组 cs[沉浸式飞机]immersive_aircraft\n- 使用条件\n-- 游戏界面\n-- 乘坐载具时\n\n脱离扫帚\n- 模组 cs[车万女仆]touhoulittlemaid\n- 使用条件\n-- 游戏界面\n-- 乘坐扫帚时\n::多模组共用",
+    "Shift+LB": "作弊获得 1 组物品\n- 模组 c[JEI物品管理器]jei\n- JEI(作弊模式)\n- 使用条件\n-- 开启物品栏\n-- 开启模组作弊模式\n-- 在模组界面点击物品\n\n合成书签配方(一个)\n- 模组 c[JEI物品管理器]jei\n- JEI(鼠标悬停)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n::JEI",
+    "Ctrl+LB": "切换作弊模式\n- 模组 c[JEI物品管理器]jei\n- JEI(将鼠标悬停在配置按钮上)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n-- 将鼠标悬停在配置按钮上\n\n隐藏物品\n- 模组 c[JEI物品管理器]jei\n- JEI(编辑模式)\n- 控制在游戏中显示在物品提示框上\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n\n合成书签配方(多个)\n- 模组 c[JEI物品管理器]jei\n- JEI(鼠标悬停)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n::JEI",
+    "Ctrl+O": "显示/隐藏 JEI 悬浮界面\n- 模组 c[JEI物品管理器]jei\n- JEI(悬浮界面)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n::JEI",
+    "Ctrl+F": "高亮搜索框\n- 模组 c[JEI物品管理器]jei\n- JEI(悬浮界面)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n::JEI",
+    "Up": "[多模组共用]\n\n上一个搜索\n- 模组 c[JEI物品管理器]jei\n- JEI(搜索过滤器)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n-- 选中搜索框\n\n向北平移(16 个方块)\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图) 全屏地图\n- 使用条件\n-- 模组界面\n\n下一层\n(layerNext)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 加载原理图后\n::多模组共用",
+    "Down": "[多模组共用]\n\n下一个搜索\n- 模组 c[JEI物品管理器]jei\n- JEI(搜索过滤器)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n-- 选中搜索框\n\n向南平移(16 个方块)\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图) 全屏地图\n- 使用条件\n-- 模组界面\n\n上一层\n(layerPrevious)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 加载原理图后\n::多模组共用",
+    "Ctrl+RB": "隐藏物品(使用通配符)\n- 模组 c[JEI物品管理器]jei\n- JEI(编辑模式)\n- 控制在游戏中显示在物品提示框上\n- 使用条件\n-- 开启物品栏\n-- 在模组界面\n::JEI",
+    "Backspace": "上一个配方\n\n上一个配方\n- 模组 c[JEI物品管理器]jei\n- JEI(配方)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面点击物品\n::JEI",
+    "Shift+PgUp": "上一分类\n\n上一分类\n- 模组 c[JEI物品管理器]jei\n- JEI(配方)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面点击物品\n::JEI",
+    "PgUp": "上一页配方\n\n上一页配方\n- 模组 c[JEI物品管理器]jei\n- JEI(配方)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面点击物品\n::JEI",
+    "Shift+PgDn": "下一分类\n\n下一分类\n- 模组 c[JEI物品管理器]jei\n- JEI(配方)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面点击物品\n::JEI",
+    "PgDn": "下一页配方\n\n下一页配方\n- 模组 c[JEI物品管理器]jei\n- JEI(配方)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面点击物品\n::JEI",
+    "Esc": "暂停菜单\n\n暂停菜单\n- 原版\n\n关闭配方界面\n- 模组 c[JEI物品管理器]jei\n- JEI(配方)\n- 使用条件\n-- 开启物品栏\n-- 在模组界面点击物品\n::系统快捷键",
+    "F1": "显示/隐藏HUD\n::系统快捷键",
+    "F3": "显示/隐藏调试信息\n::系统快捷键",
+    "U": "[多模组共用]\n\n显示物品用途\n- 模组 c[JEI物品管理器]jei\n- JEI(鼠标悬停)\n- 使用条件\n-- 开启物品栏\n-- 在物品栏界面鼠标悬停在物品上\n-- 或在模组界面鼠标悬停在物品上\n\n灵魂/身体操作切换\n(freeCamPlayer)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n-- 启用自由相机\n::多模组共用",
+    "R": "[多模组共用]\n\n显示物品配方\n- 模组 c[JEI物品管理器]jei\n- JEI(鼠标悬停)\n- 使用条件\n-- 开启物品栏\n-- 在物品栏界面鼠标悬停在物品上\n-- 或在模组界面鼠标悬停在物品上\n\n换弹\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n\n受身(落地缓冲)\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n::多模组共用",
+    "\\": "切换小地图预设\n\n切换小地图预设\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图)\n- 使用条件\n-- 游戏界面\n::journeymap",
+    "=": "放大小地图\n\n放大小地图\n(放大)\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图)\n- 使用条件\n-- 游戏界面\n::journeymap",
+    "M": "显示 / 隐藏 全屏地图\n\n显示 / 隐藏 全屏地图\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图)\n- 使用条件\n-- 游戏界面\n-- 或模组界面\n::journeymap",
+    "Alt+M": "显示 / 隐藏 小地图\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图)\n- 使用条件\n-- 游戏界面\n::journeymap",
+    "[": "更改地图类型\n\n更改地图类型\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图)\n- 使用条件\n-- 游戏界面\n::journeymap",
+    "-": "缩小小地图\n\n缩小小地图\n(缩小)\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图)\n- 使用条件\n-- 游戏界面\n::journeymap",
+    "N": "路标点管理器\n\n路标点管理器\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图)\n- 使用条件\n-- 游戏界面\n::journeymap",
+    "Right": "[多模组共用]\n\n向东平移(16 个方块)\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图) 全屏地图\n- 使用条件\n-- 模组界面\n\n下一渲染模式\n(layerModeNext)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 加载原理图后\n::多模组共用",
+    "Left": "[多模组共用]\n\n向西平移(16 个方块)\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图) 全屏地图\n- 使用条件\n-- 模组界面\n\n上一渲染模式\n(layerModePrevious)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 加载原理图后\n::多模组共用",
+    "C": "缩放玩家相机镜头\n\n缩放玩家相机镜头\n(Zoom)\n- 模组 c[Just缩放]justzoom\n- 使用条件\n-- 游戏界面\n\n方块藏匿(干草或树叶块)\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n::justzoom",
+    "O": "切换玩家相机到另一侧\n\n切换玩家相机到另一侧\n(切换相机到另一侧)\n- 模组 c[LEAWIND的第三人称视角]leawind_third_person\n- 使用条件\n-- 游戏界面\n::leawind_third_person",
+    "Num9": "光影包选择界面\n\n光影包选择界面\n- c_S[铷-光影]oculus\n- 使用条件\n-- 游戏界面\n::oculus",
+    "Num8": "启用/禁用光影包\n\n启用/禁用光影包\n- c_S[铷-光影]oculus\n- 使用条件\n-- 游戏界面\n::oculus",
+    "Num7": "重新加载光影包\n\n重新加载光影包\n- c_S[铷-光影]oculus\n- 使用条件\n-- 游戏界面\n::oculus",
+    "Num0": "ReplayMod配置\n\nReplayMod配置\n- 模组 c[录像回放]reforgedplaymod/replaymod\n- 使用条件\n-- 游戏界面\n::replaymod",
+    "X": "[多模组共用]\n\n女仆AI语言对话\n- 模组 cs[车万女仆]touhoulittlemaid\n- 使用条件\n-- 游戏界面\n-- 准星对准女仆\n\n灾变头盔能力\n- 模组 cs[灾变]L_Enders_Cataclysm\n- 使用条件\n-- 游戏界面\n-- 装备指定物品时\n::多模组共用",
+    "Alt+1": "快速施法槽 01\n\n快速施法槽 01\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
+    "Alt+2": "快速施法槽 02\n\n快速施法槽 02\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
+    "Alt+3": "快速施法槽 03\n\n快速施法槽 03\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
+    "Alt+4": "快速施法槽 04\n\n快速施法槽 04\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
+    "Alt+5": "快速施法槽 05\n\n快速施法槽 05\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
+    "G": "[多模组共用]\n\n(法术书)打开法术书\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n\n开火模式\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n\n打开/关闭饰品栏\n- 模组 cs_LIB[饰品]curios\n- 使用条件\n-- 游戏界面\n::多模组共用",
+    "Alt+V": "(法术书)打开法术选取界面\n\n(法术书)打开法术选取界面\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
+    "Alt+Y": "打开玩家模型界面\n\n打开玩家模型界面\n- 模组 c[是史蒂夫模型]ysm\n- 使用条件\n-- 游戏界面\n::ysm",
+    "Z": "[多模组共用]\n\n打开轮盘动画\n- 模组 c[是史蒂夫模型]ysm\n- 使用条件\n-- 游戏界面\n\n改装\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::多模组共用",
+    "Alt+L": "锁定轮盘\n\n锁定轮盘\n- 模组 c[是史蒂夫模型]ysm\n- 使用条件\n-- 游戏界面\n::ysm",
+    "H": "检视枪械\n\n检视枪械\n(检视)\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::tacz",
+    "V": "缩放瞄准镜\n\n缩放瞄准镜\n(缩放)\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n-- 指定物品改装特定配件时\n\n近战\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::tacz",
+    "B": "打开背包\n\n打开背包\n- 模组 cs[精妙背包]sophisticatedbackpacks\n- 使用条件\n-- 游戏界面\n-- 或物品栏有指定物品时\n-- 或装备指定物品时\n-- 或鼠标悬停在指定物品时\n::sophisticatedbackpacks",
+    "Num1": "启用跑酷\n\n启用跑酷\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n::ParCool",
+    "Num2": "打开跑酷设置\n\n打开跑酷设置\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n::ParCool",
+    "T": "[多模组共用]\n\n横向跑墙\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n\n躲闪\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n\n自动补货\n(HandRestock)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::多模组共用",
+    "Y": "简单放置\n\n简单放置\n(easyPlaceToggle)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n::MASA",
+    "F6": "执行操作\n\n执行操作\n(executeOperation)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n::MASA",
+    "F8": "选区定位\n\n选区定位\n(moveEntire)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::MASA",
+    "J": "投影主界面\n\n投影主界面\n(openGuiMainMenu)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n::MASA",
+    "F7": "替换同类方块\n\n替换同类方块\n(ReplaceAll)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 加载原理图后\n-- 原理图切换到指定模式时\n-- 手持需要的物品\n-- 准星对准原理图\n-- 按下 此绑定键 和 放置键\n::MASA",
+    "I": "方块信息\n\n方块信息\n(renderInfo)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 准星对准方块\n::MASA",
+    "K": "方块灵活放置\n\n方块灵活放置\n(FlexibleBlock)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n-- 准星对准方块\n::MASA",
+    ",": "左键快速点击\n\n左键快速点击\n(FastLeftclick)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
+    ".": "右键快速点击\n\n右键快速点击\n(FastRightClick)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
+    ";": "伽马覆写\n\n伽马覆写\n(Gammaoverride)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
+    "'": "伪潜行\n\n伪潜行\n(FakeSneaking)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
+    "`": "灵魂出窍\n\n灵魂出窍\n(FreeCamera)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
+    "Num4": "辅助瞄准\n\n辅助瞄准\n(SnapAim)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
+    "Num5": "禁用实体渲染\n\n禁用实体渲染\n(Entity)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
+    "Num6": "禁用所有粒子\n\n禁用所有粒子\n(Particles)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
+    "RAlt+C": "打开设置界面\n\n打开设置界面\n- 模组 c_LIB[malilib]malilib\n- 使用条件\n-- 游戏界面\n::MASA"
+  },
+  "#1": {
+    "#name": ""
+  },
+  "#2": {
+    "#name": ""
+  },
+  "#3": {
+    "#name": ""
+  },
+  "#4": {
+    "#name": ""
+  },
+  "#5": {
+    "#name": ""
+  },
+  "#6": {
+    "#name": ""
+  },
+  "#7": {
+    "#name": ""
+  },
+  "#8": {
+    "#name": ""
+  },
+  "#9": {
+    "#name": ""
+  }
+}

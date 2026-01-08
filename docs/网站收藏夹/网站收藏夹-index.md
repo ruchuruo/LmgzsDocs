@@ -70,4 +70,5 @@ hero:
 - [IPv6 连接测试](https://test-ipv6.com/)
 - [微步在线云沙箱](https://s.threatbook.com/)
 - [SOSO云盘提取码查询](https://www.sosoyunpan.com/)
+- [键盘布局编辑器 keyboard-layout-editor](https://www.keyboard-layout-editor.com/)
 :::
