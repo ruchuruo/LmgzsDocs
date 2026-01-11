@@ -207,7 +207,7 @@
     "/": "输入命令\n::多人游戏",
     "Ctrl+P": "Paraglider 设置\n\nParaglider 设置\n(Paraglider Settings)\n- 模组 cs[滑翔伞]Paraglider\n::杂项",
     "F11": "切换全屏显示\n::杂项",
-    "Num3": "切换电影视角\n\n镜头平衡过渡\n::杂项",
+    "Num3": "ReplayMod配置\n\nReplayMod配置\n- 模组 c[录像回放]reforgedplaymod/replaymod\n- 使用条件\n-- 游戏界面\n::replaymod",
     "F5": "切换视角\n\n切换视角\n- 原版\n\n越肩视角\n- 模组 c[LEAWIND的第三人称视角]leawind_third_person\n::杂项",
     "F2": "截图\n::杂项",
     "L": "进度\n::杂项",
@@ -241,13 +241,13 @@
     "N": "路标点管理器\n\n路标点管理器\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图)\n- 使用条件\n-- 游戏界面\n::journeymap",
     "Right": "[多模组共用]\n\n向东平移(16 个方块)\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图) 全屏地图\n- 使用条件\n-- 模组界面\n\n下一渲染模式\n(layerModeNext)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 加载原理图后\n::多模组共用",
     "Left": "[多模组共用]\n\n向西平移(16 个方块)\n- 模组 c[旅行地图]journeymap\n- journeymap(旅行地图) 全屏地图\n- 使用条件\n-- 模组界面\n\n上一渲染模式\n(layerModePrevious)\n- 模组 c[投影]litematica\n- 使用条件\n-- 游戏界面\n-- 加载原理图后\n::多模组共用",
-    "C": "缩放玩家相机镜头\n\n缩放玩家相机镜头\n(Zoom)\n- 模组 c[Just缩放]justzoom\n- 使用条件\n-- 游戏界面\n\n方块藏匿(干草或树叶块)\n- 模组 cs[跑酷]ParCool\n- 使用条件\n-- 游戏界面\n::justzoom",
+    "C": "缩放玩家相机镜头\n\n缩放玩家相机镜头\n(Zoom)\n- 模组 c[Just缩放]justzoom\n- 使用条件\n-- 游戏界面\n::justzoom",
     "O": "切换玩家相机到另一侧\n\n切换玩家相机到另一侧\n(切换相机到另一侧)\n- 模组 c[LEAWIND的第三人称视角]leawind_third_person\n- 使用条件\n-- 游戏界面\n::leawind_third_person",
     "Num9": "光影包选择界面\n\n光影包选择界面\n- c_S[铷-光影]oculus\n- 使用条件\n-- 游戏界面\n::oculus",
     "Num8": "启用/禁用光影包\n\n启用/禁用光影包\n- c_S[铷-光影]oculus\n- 使用条件\n-- 游戏界面\n::oculus",
     "Num7": "重新加载光影包\n\n重新加载光影包\n- c_S[铷-光影]oculus\n- 使用条件\n-- 游戏界面\n::oculus",
-    "Num0": "ReplayMod配置\n\nReplayMod配置\n- 模组 c[录像回放]reforgedplaymod/replaymod\n- 使用条件\n-- 游戏界面\n::replaymod",
-    "X": "[多模组共用]\n\n女仆AI语言对话\n- 模组 cs[车万女仆]touhoulittlemaid\n- 使用条件\n-- 游戏界面\n-- 准星对准女仆\n\n灾变头盔能力\n- 模组 cs[灾变]L_Enders_Cataclysm\n- 使用条件\n-- 游戏界面\n-- 装备指定物品时\n::多模组共用",
+    "Num0": "切换电影视角\n\n镜头平衡过渡\n::杂项",
+    "X": "[多模组共用]\n\n灾变头盔能力\n- 模组 cs[灾变]L_Enders_Cataclysm\n- 使用条件\n-- 游戏界面\n-- 装备指定物品时\n::多模组共用",
     "Alt+1": "快速施法槽 01\n\n快速施法槽 01\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
     "Alt+2": "快速施法槽 02\n\n快速施法槽 02\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
     "Alt+3": "快速施法槽 03\n\n快速施法槽 03\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
@@ -257,7 +257,6 @@
     "Alt+V": "(法术书)打开法术选取界面\n\n(法术书)打开法术选取界面\n- 模组 cs[新生魔艺]ars_nouveau\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::ars_nouveau",
     "Alt+Y": "打开玩家模型界面\n\n打开玩家模型界面\n- 模组 c[是史蒂夫模型]ysm\n- 使用条件\n-- 游戏界面\n::ysm",
     "Z": "[多模组共用]\n\n打开轮盘动画\n- 模组 c[是史蒂夫模型]ysm\n- 使用条件\n-- 游戏界面\n\n改装\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::多模组共用",
-    "Alt+L": "锁定轮盘\n\n锁定轮盘\n- 模组 c[是史蒂夫模型]ysm\n- 使用条件\n-- 游戏界面\n::ysm",
     "H": "检视枪械\n\n检视枪械\n(检视)\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::tacz",
     "V": "缩放瞄准镜\n\n缩放瞄准镜\n(缩放)\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n-- 指定物品改装特定配件时\n\n近战\n- 模组 cs[永恒枪械工坊]tacz\n- 使用条件\n-- 游戏界面\n-- 手持指定物品时\n::tacz",
     "B": "打开背包\n\n打开背包\n- 模组 cs[精妙背包]sophisticatedbackpacks\n- 使用条件\n-- 游戏界面\n-- 或物品栏有指定物品时\n-- 或装备指定物品时\n-- 或鼠标悬停在指定物品时\n::sophisticatedbackpacks",
@@ -279,7 +278,8 @@
     "Num4": "辅助瞄准\n\n辅助瞄准\n(SnapAim)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
     "Num5": "禁用实体渲染\n\n禁用实体渲染\n(Entity)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
     "Num6": "禁用所有粒子\n\n禁用所有粒子\n(Particles)\n- 模组 c[tweakeroo]tweakeroo\n- 使用条件\n-- 游戏界面\n::MASA",
-    "RAlt+C": "打开设置界面\n\n打开设置界面\n- 模组 c_LIB[malilib]malilib\n- 使用条件\n-- 游戏界面\n::MASA"
+    "RAlt+C": "打开设置界面\n\n打开设置界面\n- 模组 c_LIB[malilib]malilib\n- 使用条件\n-- 游戏界面\n::MASA",
+    "Num.": "切换生命值条显示\n\n切换生命值条显示\n- 模组 c[极简血量显示]Neat\n- 使用条件\n-- 游戏界面\n::杂项"
   },
   "#1": {
     "#name": ""
