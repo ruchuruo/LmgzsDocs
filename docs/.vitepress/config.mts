@@ -76,7 +76,8 @@ export default defineConfig({
                     { text: '落梦工作室', link: '/落梦工作室/落梦工作室文档-index' },
                     { text: '啸霄领域', link: '/啸霄领域/啸霄领域文档-index' },
                     { text: '其他', link: '/其他/其他文档-index' },
-                    { text: '合作须知', link: '/合作须知/合作须知-index' }
+                    { text: '合作须知', link: '/合作须知/合作须知-index' },
+                    { text: '纠纷反思集', link: '/纠纷反思集/纠纷反思集-index' }
                 ]
             }
         ],
