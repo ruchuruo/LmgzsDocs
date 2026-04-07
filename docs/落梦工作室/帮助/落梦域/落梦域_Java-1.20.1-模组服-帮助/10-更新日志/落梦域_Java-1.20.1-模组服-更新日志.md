@@ -2,6 +2,40 @@
 # 落梦域_Java-1.20.1-模组服-更新日志
 ---
 
+### 2026年4月5日
+```c
+模组更新
+
+必装模组 更新 7
+    c[JEI物品管理器]jei-1.20.1-forge-15.20.0.116.jar                // [!code --]
+    c[JEI物品管理器]jei-1.20.1-forge-15.20.0.129.jar                // [!code ++]
+
+    c[是史蒂夫模型]ysm-2.5.3-forge+mc1.20.1-release.jar             // [!code --]
+    c[是史蒂夫模型]ysm-2.6.4-forge+mc1.20.1-release.jar             // [!code ++]
+
+    c[遥远的地平线]DistantHorizons-fabric-forge-2.3.0-b-1.20.1.jar  // [!code --]
+    c[遥远的地平线]DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar  // [!code ++]
+
+    cs[永恒枪械工坊]tacz-1.20.1-1.1.7-release.jar                   // [!code --]
+    cs[永恒枪械工坊]tacz-1.20.1-1.1.7-hotfix2.jar                   // [!code ++]
+
+    cs[精妙背包]sophisticatedbackpacks-1.20.1-3.24.9.1391.jar       // [!code --]
+    cs[精妙背包]sophisticatedbackpacks-1.20.1-3.24.25.1566.jar      // [!code ++]
+
+    cs[车万女仆]touhoulittlemaid-1.4.6-forge+mc1.20.1.jar           // [!code --]
+    cs[车万女仆]touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar   // [!code ++]
+
+    cs_LIB[精妙核心]sophisticatedcore-1.20.1-1.2.105.1230.jar       // [!code --]
+    cs_LIB[精妙核心]sophisticatedcore-1.20.1-1.3.8.1524.jar         // [!code ++]
+
+枪包 更新 1
+    Ars Armorer_v1.0.0_for115.zip   // [!code --]
+    Ars Armorer_v1.0.1_for117.zip   // [!code ++]
+
+枪包 添加 1
+    [Tacz1.1.5+] EOS_Dawn Goddess Lab ver1.1.1-hotfix1.zip
+```
+
 ### 2025年12月21日
 ```c
 模组更新
