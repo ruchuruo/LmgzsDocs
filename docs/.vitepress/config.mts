@@ -13,6 +13,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 
 // 引入自定义 Vite 插件
 import copy_directory from './plugins/my-plugins/vite-plugin-copy-directory.ts';
+import preReplaceKeyword from './plugins/my-plugins/vite-plugin-pre-replace-keyword.ts';
 
 
 
@@ -26,6 +27,7 @@ export default defineConfig({
     title: "落梦工作室文档",
     description: "A VitePress Site",
 
+    // lastUpdated: true,     // 显示最后更新时间
     ignoreDeadLinks: true, // 当设置为 true 时，VitePress 不会因为死链而导致构建失败。
 
     // 主题配置
@@ -152,14 +154,23 @@ export default defineConfig({
         plugins: [
 
             // vite 插件 复制目录
-            copy_directory({
-                srcPath: "./docs/public/apaxy/htaccess.txt",
-                destPath: "./docs/.vitepress/dist/.htaccess"
-            }),
+            // copy_directory({
+            //     srcPath: "./docs/public/apaxy/htaccess.txt",
+            //     destPath: "./docs/.vitepress/dist/.htaccess"
+            // }),
             // copy_directory({
             //     srcPath: "./docs/测试/",
             //     destPath: "./docs/.vitepress/dist/测试/"
             // }),
+
+            preReplaceKeyword({
+                devEnvFilePath:     './.env.development',
+                buildEnvFilePath:   './.env.production',
+                encoding:           'utf-8',
+                fileExtensionArray: ['.md'],
+                keyword:            '@server',
+                envKey:             'STATIC_ASSET_SERVER_URL',
+            })
         ]
     }
 })
