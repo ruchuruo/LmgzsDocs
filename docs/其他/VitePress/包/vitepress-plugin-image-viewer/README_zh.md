@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/vitepress-plugin-image-viewer?color=green)](https://www.npmjs.com/package/vitepress-plugin-image-viewer)
 
-![](./demo.webp)
+![](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/demo.webp)
 
 > 一款基于 viewerjs 的 vitepress 图片查看器（图片预览）插件
 

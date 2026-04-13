@@ -7,10 +7,10 @@
 - 本站文件夹 [http://lmgzs.fun:440/](http://lmgzs.fun:440/files/%e8%bd%af%e4%bb%b6/%e7%8e%af%e5%a2%83/java/)
 
 ### 下载 Microsoft Build of OpenJDK
-![图片](./images/下载Java/下载Java__1.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/下载Java/下载Java__1.png)
 
 ### 如果你是 Windows X64
-![图片](./images/下载Java/下载Java__2.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/下载Java/下载Java__2.png)
 
 ::: tip 提示
 - 下载后安装

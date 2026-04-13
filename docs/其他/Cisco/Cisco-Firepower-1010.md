@@ -1,7 +1,7 @@
 # Cisco Firepower 1010
 ---
 
-![图片](./images/firepower-1010/431075.avif)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/431075.avif)
 
 ::: info 2025年7月27日
 :::
@@ -67,7 +67,7 @@ FTD
 - 查看官方教程时应该在 熟悉的语言教程 和 英语教程 中切换对比
 :::
 
-![图片](./images/firepower-1010/484439.avif)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/484439.avif)
 
 
 
@@ -157,7 +157,7 @@ put file
 
 ## 接口说明
 以下图示显示了 Firepower 1010 和 1010E 的后面板
-![图片](./images/firepower-1010/430859.avif)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/430859.avif)
 
 |   |   |   |   |
 |-|-|-|-|
@@ -176,7 +176,7 @@ Console线 应该连接到 ⑥ 或 ⑦
 
 
 ## 连接管理电脑 (Linux)
-![图片](./images/firepower-1010/接线-1.drawio.svg)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/接线-1.drawio.svg)
 
 ### 通过命令查看连接情况
 - 管理电脑/
@@ -228,7 +228,7 @@ CTRL-A Z for help | 9600 8N1 | NOR | Minicom 2.9 | VT102 | 脱机 | ttyUSB0
 - 启动完成后即可 登录FXOS机箱CLI
 :::
 
-![图片](./images/firepower-1010/接线-2.drawio.svg)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/接线-2.drawio.svg)
 
 
 
@@ -448,7 +448,7 @@ ip : 192.168.45.46/24
 网关 : 192.168.45.46
 :::
 
-![图片](./images/firepower-1010/接线-3.drawio.svg)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/接线-3.drawio.svg)
 
 ::: warning 警告
 ROMMON模式支持TFTP协议和USB。初始启动过程不支持FTP、SCP和SFTP。
@@ -963,7 +963,7 @@ Authentication            : Disabled
 - 可以通过 `configure network <ipv4 | ipv6> <manual | dhcp> <Address> <Netmask> <Gateway>` 命令来更改网络配置
 - 将 管理端口 连接到 路由器
 
-![图片](./images/firepower-1010/接线-4.drawio.svg)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/接线-4.drawio.svg)
 
 - 管理电脑/Minicom/
 - 更改网络
@@ -1062,7 +1062,7 @@ Registration              : Pending
 
 ### 向管理中心注册防火墙
 
-![图片](./images/firepower-1010/接线-5.drawio.svg)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/接线-5.drawio.svg)
 
 #### 步骤 1
 登录管理中心。
@@ -1082,9 +1082,9 @@ Registration              : Pending
 
 ::: tabs key:英文中文
 == 英文
-![图片](./images/firepower-1010/479219.avif)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/479219.avif)
 == 中文
-![图片](./images/firepower-1010/管理中心注册防火墙-1.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心注册防火墙-1.png)
 :::
 
 设置以下参数:
@@ -1098,9 +1098,9 @@ Registration              : Pending
 
 ::: tabs key:英文中文
 == 英文
-![图片](./images/firepower-1010/451335.avif)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/451335.avif)
 == 中文
-![图片](./images/firepower-1010/管理中心注册防火墙-2.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心注册防火墙-2.png)
 :::
 
 - `智能许可` - 为要部署的功能分配所需的智能许可证。`注意：` 在添加设备后，您可以从 `系统 > 许可证 > 智能许可证` 页面应用 Secure Client 远程访问 VPN 许可证。
@@ -1147,7 +1147,7 @@ Management type           : Configuration and analytics
 ### 连接到路由器
 将防火墙 `Ethernet1/1` 接口连接到路由器，之后将要在 管理中心(FMC) 进行配置
 
-![图片](./images/firepower-1010/接线-6.drawio.svg)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/接线-6.drawio.svg)
 
 ### 管理中心上配置防火墙接口
 ::: info
@@ -1166,11 +1166,11 @@ Management type           : Configuration and analytics
 
 ::: tabs
 == 图1 ->
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-1.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-1.png)
 == 图2 ->
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-2.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-2.png)
 == 图3
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-3.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-3.png)
 :::
 
 - 编辑另一个需要连接外网的接口，这里以 `Ethernet1/2` 为例
@@ -1181,11 +1181,11 @@ Management type           : Configuration and analytics
 
 ::: tabs
 == 图1 ->
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-4.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-4.png)
 == 图2 ->
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-5.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-5.png)
 == 图3
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-6.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-6.png)
 :::
 
 #### 步骤 2
@@ -1197,11 +1197,11 @@ Management type           : Configuration and analytics
 
 ::: tabs
 == 图1 ->
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-7.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-7.png)
 == 图2 ->
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-8.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-8.png)
 == 图3
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-9.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-9.png)
 :::
 
 #### 步骤 3
@@ -1210,14 +1210,14 @@ Management type           : Configuration and analytics
 - 测试连接外网
 ::: tabs
 == 图1 ->
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-10.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-10.png)
 == 图2 ->
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-11.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-11.png)
 == 图3
-![图片](./images/firepower-1010/管理中心上配置防火墙接口-12.png)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/管理中心上配置防火墙接口-12.png)
 :::
 
-![图片](./images/firepower-1010/接线-7.drawio.svg)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firepower-1010/接线-7.drawio.svg)
 
 
 ::: tip 注意

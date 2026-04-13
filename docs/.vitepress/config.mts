@@ -14,6 +14,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 // 引入自定义 Vite 插件
 import copy_directory from './plugins/my-plugins/vite-plugin-copy-directory.ts';
 import preReplaceKeyword from './plugins/my-plugins/vite-plugin-pre-replace-keyword.ts';
+import preReplaceKeywordResolveCurdir from './plugins/my-plugins/vite-plugin-pre-replace-keyword-resolve-curdir.ts';
 
 
 
@@ -34,8 +35,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     themeConfig: {
 
+        // 导航栏上显示的 Logo 位于站点标题前
         logo: "/images/icon/icon.png",
-        
+
         // 导航栏
         nav: [
             { text: '主页', link: '/' },
@@ -164,12 +166,21 @@ export default defineConfig({
             // }),
 
             preReplaceKeyword({
-                devEnvFilePath:     './.env.development',
-                buildEnvFilePath:   './.env.production',
+                devEnvFilePath:     './.env.public.development',
+                buildEnvFilePath:   './.env.public.production',
+                encoding:           'utf-8',
+                fileExtensionArray: ['.md', '.css'],
+                keyword:            '__LmgzsDocs_STATIC_ASSET_SERVER__',
+                envKey:             'STATIC_ASSET_SERVER_URL',
+            }),
+
+            preReplaceKeywordResolveCurdir({
+                devEnvFilePath:     './.env.public.development',
+                buildEnvFilePath:   './.env.public.production',
                 encoding:           'utf-8',
                 fileExtensionArray: ['.md'],
-                keyword:            '@server',
-                envKey:             'STATIC_ASSET_SERVER_URL',
+                keyword:            "__CUR_DIR__",
+                envKey:             "VITEPRESS_PROJECT_ROOT_PATH"
             })
         ]
     }

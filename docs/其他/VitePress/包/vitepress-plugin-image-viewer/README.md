@@ -4,7 +4,7 @@
 
 EN | [中文文档](README_zh.md)
 
-![](./demo.webp)
+![](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/demo.webp)
 
 > A vitepress image viewer plugin based on viewerjs
 

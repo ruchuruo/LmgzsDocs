@@ -35,9 +35,6 @@ interface ReplaceOptions {
 
 export default function preReplaceKeyword(options: ReplaceOptions): Plugin {
 
-    // 最终要替换的值
-    let finalEnvValue = '';
-
     // 解构配置项
     const {
         devEnvFilePath,
@@ -47,6 +44,9 @@ export default function preReplaceKeyword(options: ReplaceOptions): Plugin {
         keyword,
         envKey
     } = options;
+
+    // 最终要替换的值
+    let finalEnvValue = '';
 
     return {
         name: 'vite-plugin-pre-replace-keyword', // 插件名称

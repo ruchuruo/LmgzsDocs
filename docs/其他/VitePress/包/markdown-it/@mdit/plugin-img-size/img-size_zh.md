@@ -101,13 +101,13 @@ mdLegacy.render("![image](https://example.com/image.png =300x200)");
 
 ## 示例
 
-::: preview 示例
+::: info preview 示例
 
 <!-- 新语法 -->
 
-![Logo =200x200](./logo.svg "Markdown")
-![Logo =150x](./logo.svg "Markdown")
-![Logo =x100](./logo.svg "Markdown")
+![Logo =200x200](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg "Markdown")
+![Logo =150x](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg "Markdown")
+![Logo =x100](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg "Markdown")
 
 <!-- 旧语法 -->
 
@@ -117,8 +117,8 @@ mdLegacy.render("![image](https://example.com/image.png =300x200)");
 
 <!-- Obsidian 语法 -->
 
-![Logo|200x200](./logo.svg)
-![Logo|150x0](./logo.svg)
-![Logo|0x100](./logo.svg)
+![Logo|200x200](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg)
+![Logo|150x0](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg)
+![Logo|0x100](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg)
 
 :::

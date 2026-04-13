@@ -1,0 +1,54 @@
+
+/* 成员网格容器 */
+.member-grid {
+    display: grid;
+
+    /* 调整 minmax 的值 以增加或减少成员 */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    /* 网格行和列之间的间距 */
+    gap: 1%;
+}
+
+
+
+
+
+/* 成员包装器 */
+.member-wrapper {
+    transition: 0.33s;
+}
+
+/* 未展开 鼠标悬停时的效果 */
+.member-wrapper:not(:has(details[open])):hover {
+    transform: scale(1.05);
+}
+
+/* 展开 停时的效果 */
+/* 点击 介绍 后独占一行 */
+/* 当点击 <summary> 展开 <details> 时，
+   浏览器会给 <details> 加上 [open] 属性。
+   利用 :has 监测这个属性
+*/
+.member-wrapper:has(details[open]) {
+    grid-column: 1 / -1;
+}
+
+
+
+/* 成员包装器 成员信息 */
+.member-wrapper .info {
+    transition: 0.33s;
+}
+
+.member-wrapper:not(:has(details[open])):hover .info{
+    background-color: rgba(255, 227, 225, 0.5);
+}
+
+/* 展开 描边 */
+.member-wrapper:has(details[open]) .info {
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(255, 209, 209, 0.5);
+    transition: 0.33s;
+}

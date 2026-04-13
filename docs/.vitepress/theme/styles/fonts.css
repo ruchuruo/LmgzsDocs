@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'azuki_font';
-    src: url('/fonts/azuki_font.ttf') format('truetype');
+    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/azuki_font.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'uzura_font';
-    src: url('/fonts/uzura_font.ttf') format('truetype');
+    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/uzura_font.ttf') format('truetype');
 }
 /* 
 @font-face {

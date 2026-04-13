@@ -100,13 +100,13 @@ Renders as ↓
 
 ## Demo
 
-::: preview Demo
+::: info preview Demo
 
 <!-- New Syntax -->
 
-![Logo =200x200](./logo.svg "Markdown")
-![Logo =150x](./logo.svg "Markdown")
-![Logo =x100](./logo.svg "Markdown")
+![Logo =200x200](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg "Markdown")
+![Logo =150x](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg "Markdown")
+![Logo =x100](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg "Markdown")
 
 <!-- Legacy Syntax -->
 
@@ -116,8 +116,8 @@ Renders as ↓
 
 <!-- Obsidian Syntax -->
 
-![Logo|200x200](./logo.svg)
-![Logo|150x0](./logo.svg)
-![Logo|0x100](./logo.svg)
+![Logo|200x200](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg)
+![Logo|150x0](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg)
+![Logo|0x100](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/logo.svg)
 
 :::

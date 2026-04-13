@@ -7,9 +7,9 @@ hero:
   text: ""
   tagline: "空旷失落之境，寂寥无人迹，昔日梦亦成灰"
   image:
-    light: /images/logo/落梦工作室logo_N3_[已裁剪].png
-    dark: /images/icon/icon.png
-    alt: logo
+    light: __LmgzsDocs_STATIC_ASSET_SERVER__/public/images/logo/落梦工作室logo_N3_[已裁剪].png
+    dark:  __LmgzsDocs_STATIC_ASSET_SERVER__/public/images/icon/icon.png
+    alt:   logo
   actions:
     - theme: brand
       text: 成员
