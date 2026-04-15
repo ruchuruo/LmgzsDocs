@@ -1,6 +1,6 @@
 ::: info W0DNMD
 ![头像 =100x](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/media/images/avatars/processed/avatar.jpg)
-::: details 介绍
+::: details 同人文
 ::: tabs
 == 绝对统治
 他不仅只关注自己的利益，甚至不惜以他人的牺牲为代价来满足自己的欲望。在服务器的世界里，他仿佛是一个孤傲的王者，对周围的一切都漠不关心，只在乎自己能否在游戏中获得更高的地位和更强的力量。他的眼中闪烁着贪婪与冷酷，每当有玩家试图接近他，寻求合作或是友谊时，他总是露出一抹高深莫测的笑容，仿佛早已看穿了一切。

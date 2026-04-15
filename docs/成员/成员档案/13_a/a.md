@@ -1,6 +1,6 @@
 ::: info a
 ![头像 =100x](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/media/images/avatars/processed/avatar.jpg)
-::: details 介绍
+::: details 同人文
 ::: tabs
 == 绳结情深
 那个随手拈来，却又似乎蕴含无尽秘密的名字，如同一道未解之谜，散发着莫名的吸引力与深邃的神秘感。

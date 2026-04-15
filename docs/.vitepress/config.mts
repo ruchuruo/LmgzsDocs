@@ -28,7 +28,7 @@ export default defineConfig({
     title: "落梦工作室文档",
     description: "A VitePress Site",
 
-    // lastUpdated: true,     // 显示最后更新时间
+    lastUpdated: true,     // 显示最后更新时间
     ignoreDeadLinks: true, // 当设置为 true 时，VitePress 不会因为死链而导致构建失败。
 
     // 主题配置
@@ -125,6 +125,10 @@ export default defineConfig({
         outline: {
             level: "deep",
             label: "页面导航",
+        },
+
+        lastUpdated: {
+            text: '最后更新于'
         },
 
         docFooter: {

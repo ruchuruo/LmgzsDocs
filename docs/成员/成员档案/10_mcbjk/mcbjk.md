@@ -1,6 +1,6 @@
 ::: info mcbjk
 ![头像 =100x](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/media/images/avatars/processed/avatar.jpg)
-::: details 介绍
+::: details 同人文
 ::: tabs
 == 怒潮对决
 
