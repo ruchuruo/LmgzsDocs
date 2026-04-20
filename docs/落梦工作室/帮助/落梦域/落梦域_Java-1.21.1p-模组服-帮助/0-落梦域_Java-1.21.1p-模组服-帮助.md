@@ -2,8 +2,9 @@
 
 ::: tip 这是一个计划 2026年4月18日
 - 基于 Minecraft 1.21.1+ 进行规划
-- 或是等待 Minecraft Vulkan (1.21.10+)
+- 或是等待 Minecraft Vulkan (1.21.10+) 稳定版
 - 模组排序 越靠前的模组越重要
+- 挑选模组 应当选择活跃更新的
 :::
 
 ## 限制
@@ -48,8 +49,18 @@ NeoForge
 - [农夫乐事](https://www.mcmod.cn/class/2820.html)
 - [滑翔伞](https://www.mcmod.cn/class/1344.html)
 
-新增
+计划新增
 - [数据包修复 Packet Fixer](https://www.mcmod.cn/class/12625.html)
+- 森罗物语
+    - [森罗物语-酒馆](https://www.mcmod.cn/class/25200.html)
+    - [森罗物语-厨房](https://www.mcmod.cn/class/20850.html)
+    - [森罗物语-玩偶](https://www.mcmod.cn/class/19418.html)
+    - [森罗物语-玩偶工坊](https://www.mcmod.cn/class/24158.html)
+    - [森罗物语-装饰](https://www.mcmod.cn/class/23160.html)
+- 车万女仆
+    - [女仆摇曲柄](https://www.mcmod.cn/class/22019.html)
+- [方块小镇](https://www.mcmod.cn/class/4656.html)
+    - [方块建模](https://www.mcmod.cn/class/11555.html)
 
 ### 模组附加数据包
 永恒枪械工坊
@@ -61,6 +72,7 @@ NeoForge
 - 枪包 [Tacz1.1.5+]TRIS-dyna GunsPack ver1.1.5.zip.zip
 
 ### 模组作用说明
+::: details 展开
 是史蒂夫模型
 - 装扮
 
@@ -119,6 +131,11 @@ NeoForge
 数据包修复
 - 修复 读取过大的 NBT 标签时被踢出
 - 只能加不能删 删了存档损坏
+:::
+
+
+
+
 
 ## 客户端
 ### 模组
@@ -167,6 +184,14 @@ NeoForge
 - 基于 控制台输出 的有限功能插件
 :::
 
+::: info [Velocity](https://papermc.io/software/velocity/)
+- 代理端
+
+插件
+- [\[MOTD格式化\]minimotd](https://www.spigotmc.org/resources/minimotd-server-list-motd-plugin-with-rgb-gradients.81254/)
+- [\[地图模组修复\]MapModCompanion](https://www.spigotmc.org/resources/mapmodcompanion.105128/)
+:::
+
 ::: info [Youer](https://www.mohistmc.cn/download/youer)
 ```c
 [Tenet (原 Mohist)](https://github.com/Teneted/Tenet)
@@ -191,14 +216,14 @@ NeoForge
 - [滚筒飞行](https://www.mcmod.cn/class/7724.html)
 
 #### 插件
-- [菜单]ChestCommands
-- [地图模组修复]MapModCompanion (*禁用*)
-- [反恶意破坏]CoreProtect
-- [基础管理]SunLight
+- [\[菜单\]ChestCommands](https://github.com/filoghost/ChestCommands)
+- [\[地图模组修复\]MapModCompanion](https://www.spigotmc.org/resources/mapmodcompanion.105128/)(*禁用*)
+- [\[反恶意破坏\]CoreProtect](https://www.spigotmc.org/resources/coreprotect-community-edition.8631/)
+- [\[基础管理\]SunLight](https://www.spigotmc.org/resources/sunlight-%E2%AD%90-the-best-z-essentials-cmi-alternative.67733/)
     - LIB[基础管理]nightcore
-- [权限]LuckPerms
-- [世界保护]worldguard
-- [世界编辑]worldedit
+- [\[权限\]LuckPerms](https://github.com/LuckPerms/LuckPerms)
+- [\[世界保护\]worldguard](https://modrinth.com/plugin/worldguard)
+- [\[世界编辑\]worldedit](https://modrinth.com/plugin/worldedit)
 :::
 
 
@@ -219,11 +244,13 @@ NeoForge
 - [滚筒飞行](https://www.mcmod.cn/class/7724.html)
 - [KubeJs](https://www.mcmod.cn/class/2450.html)
 - [硅胶假人](https://www.mcmod.cn/class/18248.html)
+- [FTB区块](https://www.mcmod.cn/class/3201.html)
 
 #### 数据包
 ##### 地形
 - [[ETN]史诗地形](https://www.mcmod.cn/class/15808.html)
-- [Epic Terrain Compatible](https://www.mcmod.cn/class/18286.html)
+    - [Epic Terrain Compatible](https://www.mcmod.cn/class/18286.html)
+- [2032世界高度](https://www.mcmod.cn/class/12748.html)
 
 ##### 趣味
 - [Lmgzs_Minecraft-DataPacks](https://github.com/ruchuruo/Lmgzs_Minecraft-DataPacks)
@@ -232,8 +259,8 @@ NeoForge
 - [菜单]ChestCommands
 - [地图模组修复]MapModCompanion
 - [反恶意破坏]CoreProtect
-- [跨服数据同步]knapsackToGo4
-- [领地]Dominion
+- [\[跨服数据同步\]knapsackToGo4](https://www.spigotmc.org/resources/knapsacktogo4-powerful-cross-server-data-synchronization-plug-in-generation-4.102493/)
+- [\[领地\]Dominion](https://www.spigotmc.org/resources/dominion.119514/)
 - [权限]LuckPerms
 :::
 
@@ -254,11 +281,11 @@ NeoForge
 - [菜单]ChestCommands
 - [地图模组修复]MapModCompanion
 - [反恶意破坏]CoreProtect
-- [僵尸末日]ZombieApocalypse
+- [\[僵尸末日\]ZombieApocalypse](https://www.spigotmc.org/resources/zombieapocalypse-8-zombie-types-26-1-support.82106/)
 - [跨服数据同步]knapsackToGo4
 - [领地]Dominion
 - [权限]LuckPerms
-- [致命灾难]DeadlyDisasters
+- [\[致命灾难\]DeadlyDisasters](https://www.spigotmc.org/resources/deadly-disasters.90806/)
 :::
 
 
