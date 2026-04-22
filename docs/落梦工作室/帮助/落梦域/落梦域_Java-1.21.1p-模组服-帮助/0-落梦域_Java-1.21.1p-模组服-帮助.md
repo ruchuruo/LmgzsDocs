@@ -51,6 +51,9 @@ NeoForge
 
 计划新增
 - [数据包修复 Packet Fixer](https://www.mcmod.cn/class/12625.html)
+- [附魔灌注台](https://www.mcmod.cn/class/5521.html)
+- 机械动力
+    - [机械动力-附魔工业](https://www.mcmod.cn/class/7892.html)
 - 森罗物语
     - [森罗物语-酒馆](https://www.mcmod.cn/class/25200.html)
     - [森罗物语-厨房](https://www.mcmod.cn/class/20850.html)
@@ -156,7 +159,11 @@ NeoForge
 - [遥远的地平线](https://www.mcmod.cn/class/5009.html)
 
 #### 优化
-- 1111
+原有
+- 无
+
+计划新增
+- [铁氧体磁芯](https://www.mcmod.cn/class/3888.html)
 
 ### 光影
 - [Iris Shaders](https://www.mcmod.cn/class/3697.html)
