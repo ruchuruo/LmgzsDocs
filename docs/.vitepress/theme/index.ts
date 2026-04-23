@@ -12,11 +12,11 @@ import imageViewer from 'vitepress-plugin-image-viewer';
 import 'viewerjs/dist/viewer.min.css';
 
 // 引入自定义样式
-import "./styles/home-page.css";              // 主页样式
-import "./styles/class-VPNavBar.css";         // 导航栏样式
-import "./styles/element-body-background.css" // 元素 body样式 背景
-import "./styles/id-app-background.css"       // id app的背景
-import "./styles/fonts.css"                   // 字体
+import "./my-styles/home-page.css";              // 主页样式
+import "./my-styles/class-VPNavBar.css";         // 导航栏样式
+import "./my-styles/element-body-background.css" // 元素 body样式 背景
+import "./my-styles/id-app-background.css"       // id app的背景
+import "./my-styles/fonts.css"                   // 字体
 
 
 
