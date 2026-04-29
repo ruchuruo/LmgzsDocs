@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme';
 import type { Theme } from 'vitepress'
 import { useRoute } from 'vitepress';
+import { h } from 'vue'
 
 // 选项卡 vitepress-plugin-tabs
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
@@ -18,6 +19,11 @@ import "./my-styles/element-body-background.css" // 元素 body样式 背景
 import "./my-styles/id-app-background.css"       // id app的背景
 import "./my-styles/fonts.css"                   // 字体
 
+// 引入自定义组件
+import BackToTop from './my-components/BackToTop.vue'
+
+
+
 
 
 export default {
@@ -33,6 +39,13 @@ export default {
 
     // 使用 imageViewer
     imageViewer(route);
-  }
+  },
+
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      // 将 BackToTop 组件插入到底部插槽
+      'layout-bottom': () => h(BackToTop)
+    })
+  },
 
 } satisfies Theme;
