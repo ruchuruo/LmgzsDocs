@@ -22,8 +22,10 @@ import preReplaceKeywordResolveCurdir from './plugins/my-plugins/vite-plugin-pre
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    lang: 'zh-CN',
+    srcDir: './docs', // 相对于项目根目录的 markdown 文件所在的文件夹
     // base: "/files/markdown/", // 网站部署在非根路径下使用
+
+    lang: 'zh-CN',
 
     title: "落梦工作室文档",
     description: "A VitePress Site",

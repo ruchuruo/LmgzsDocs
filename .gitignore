@@ -1,3 +1,4 @@
+
 .vs
 .vscode/settings.json
 node_modules/
@@ -5,3 +6,7 @@ node_modules/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
 docs/.vitepress/dist.zip
+
+.vitepress/cache/
+.vitepress/dist/
+.vitepress/dist.zip
