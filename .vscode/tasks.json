@@ -6,7 +6,7 @@
 			"script": "docs:dev",
 			"problemMatcher": [],
 			"label": "npm: docs:dev",
-			"detail": "vitepress dev docs"
+			"detail": "vitepress 开发"
 		},
 		{
 			"type": "npm",
@@ -14,7 +14,14 @@
 			"group": "build",
 			"problemMatcher": [],
 			"label": "npm: docs:build",
-			"detail": "vitepress build docs"
+			"detail": "vitepress 构建"
+		},
+		{
+			"type": "npm",
+			"script": "docs:preview",
+			"label": "npm: docs:preview",
+			"problemMatcher": [],
+			"detail": "vitepress 构建后预览"
 		}
 	]
 }
