@@ -20,7 +20,7 @@ import "./my-styles/id-app-background.css"       // id app的背景
 import "./my-styles/fonts.css"                   // 字体
 
 // 引入自定义组件
-import BackToTop from './my-components/BackToTop.vue'
+import BackToTop from './my-components/BackToTop-v2.vue'
 
 
 
