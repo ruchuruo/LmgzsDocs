@@ -28,12 +28,12 @@ interface ReplaceOptions {
 
 
 /**
- * 返回env字符串
+ * 获取给定的 键 对应的 值
  * - 从给定的 环境变量文件 中读取 变量
  * @param options 插件配置项的接口
  * @returns string
  */
-export default function returnEnvString(options: ReplaceOptions): string {
+export default function getEnvValue(options: ReplaceOptions): string {
 
     // 解构配置项
     const {

@@ -16,7 +16,7 @@ import preReplaceKeyword from './plugins/my-plugins/vite-plugin-pre-replace-keyw
 import preReplaceKeywordResolveCurdir from './plugins/my-plugins/vite-plugin-pre-replace-keyword-resolve-curdir.ts';
 
 // 引入自定义 工具
-import returnEnvString from './utils/my-utils/return-env-string.ts';
+import getEnvValue from './utils/my-utils/get-env-value.ts';
 
 
 
@@ -40,7 +40,7 @@ export default defineConfig({
     themeConfig: {
 
         // 导航栏上显示的 Logo 位于站点标题前
-        logo: returnEnvString({
+        logo: getEnvValue({
             devEnvFilePath:   './.env.public.development',
             buildEnvFilePath: './.env.public.production',
             encoding:         'utf-8',

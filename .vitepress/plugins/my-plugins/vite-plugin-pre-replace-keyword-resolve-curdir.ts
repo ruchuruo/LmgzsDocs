@@ -2,7 +2,7 @@ import { type Plugin } from 'vitepress'
 import path from 'path'
 
 // 自定义工具
-import myLoadEnv from '../../utils/my-utils/load-env'
+import getEnvValue from '../../utils/my-utils/get-env-value'
 
 
 
@@ -58,26 +58,20 @@ export default function preReplaceKeywordResolveCurdir(options: ReplaceOptions):
     // 最终要替换的值
     let finalEnvValue = '';
 
+    // 获取给定的 键 对应的 值
+    finalEnvValue = getEnvValue({
+        devEnvFilePath:   devEnvFilePath,
+        buildEnvFilePath: buildEnvFilePath,
+        encoding:         encoding,
+        envKey:           envKey,
+    })
+
     return {
         name: 'vite-plugin-pre-replace-keyword-resolve-curdir', // 插件名称
         enforce: 'pre',                                         // 强制插件在 VitePress 处理 Markdown 之前运行
 
-        configResolved(config) {
-            // 根据当前环境选择对应的 .env 文件路径
-            const envFilePath = config.command === 'serve' ? devEnvFilePath : buildEnvFilePath;
-
-            // 只获取环境变量 不添加到 "process.env" 中
-            const envObj: { [key: string]: string } | void = myLoadEnv(envFilePath, encoding, false);
-
-            // 从加载的环境变量中获取最终要替换的值
-            if (envObj && envObj[envKey]) {
-                finalEnvValue = envObj[envKey];
-            } else {
-                // 没有找到就用空字符串
-                finalEnvValue = '';
-            }
-        },
-
+        // code 是文件的原始字符串
+        // id   是文件绝对路径
         transform(code, id) {
 
             // 标志 是否应该处理这个文件
