@@ -12,9 +12,11 @@ import { legacyImgSize, imgSize, obsidianImgSize } from "@mdit/plugin-img-size";
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 
 // 引入自定义 Vite 插件
-import copy_directory from './plugins/my-plugins/vite-plugin-copy-directory.ts';
 import preReplaceKeyword from './plugins/my-plugins/vite-plugin-pre-replace-keyword.ts';
 import preReplaceKeywordResolveCurdir from './plugins/my-plugins/vite-plugin-pre-replace-keyword-resolve-curdir.ts';
+
+// 引入自定义 工具
+import returnEnvString from './utils/my-utils/return-env-string.ts';
 
 
 
@@ -38,7 +40,12 @@ export default defineConfig({
     themeConfig: {
 
         // 导航栏上显示的 Logo 位于站点标题前
-        logo: "/images/icon/icon.png",
+        logo: returnEnvString({
+            devEnvFilePath:   './.env.public.development',
+            buildEnvFilePath: './.env.public.production',
+            encoding:         'utf-8',
+            envKey:           'STATIC_ASSET_SERVER_URL',
+        }) + "/public/images/icon/icon.png",
 
         // 导航栏
         nav: [
@@ -160,16 +167,6 @@ export default defineConfig({
 
     vite: {
         plugins: [
-
-            // vite 插件 复制目录
-            // copy_directory({
-            //     srcPath: "./docs/public/apaxy/htaccess.txt",
-            //     destPath: "./docs/.vitepress/dist/.htaccess"
-            // }),
-            // copy_directory({
-            //     srcPath: "./docs/测试/",
-            //     destPath: "./docs/.vitepress/dist/测试/"
-            // }),
 
             preReplaceKeyword({
                 devEnvFilePath:     './.env.public.development',

@@ -2,7 +2,7 @@ import { type Plugin } from 'vitepress'
 import path from 'path'
 
 // 自定义工具
-import myLoadEnv from './my-load-env'
+import myLoadEnv from '../../utils/my-utils/load-env'
 
 
 
@@ -35,6 +35,14 @@ interface ReplaceOptions {
 
 
 
+/**
+ * pre 阶段 替换 关键字 为 当前目录 (相对路径)
+ * - 从给定的 环境变量文件 中读取 变量
+ * - 效果:
+ *      - CUR_DIR -> dir1/dir11
+ * @param options 
+ * @returns 
+ */
 export default function preReplaceKeywordResolveCurdir(options: ReplaceOptions): Plugin {
 
     // 解构配置项

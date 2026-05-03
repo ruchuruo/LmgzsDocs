@@ -1,7 +1,7 @@
 import { type Plugin } from 'vitepress'
 
 // 自定义工具
-import myLoadEnv from './my-load-env'
+import myLoadEnv from '../../utils/my-utils/load-env'
 
 
 
@@ -33,6 +33,14 @@ interface ReplaceOptions {
 
 
 
+/**
+ * pre 阶段 替换 关键字
+ * - 从给定的 环境变量文件 中读取 变量
+ * - 效果:
+ *      - SERVER_URL -> http://127.0.0.1:8080
+ * @param options 插件配置项的接口
+ * @returns Plugin
+ */
 export default function preReplaceKeyword(options: ReplaceOptions): Plugin {
 
     // 解构配置项
