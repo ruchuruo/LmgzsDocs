@@ -374,7 +374,7 @@ watch(route, () => {
     flex-direction: column;
     overflow: hidden;
     width: 85vw;
-    height: 85vh;
+    height: 64vh;
     max-width: 1200px;
     background-color: var(--vp-c-bg); /* 跟随 VitePress 的暗/亮色主题 */
     border-radius: 12px;
