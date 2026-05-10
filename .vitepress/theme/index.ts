@@ -21,7 +21,7 @@ import "./my-styles/fonts.css"                   // 字体
 
 // 引入自定义组件
 import BackToTop from './my-components/BackToTop-v2.vue'
-import LinkPreview from './my-components/LinkPreview-v1.vue'
+import LinkPreview from './my-components/LinkPreview-v2.vue'
 
 
 
