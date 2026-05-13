@@ -14,6 +14,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 // 引入自定义 Vite 插件
 import preReplaceKeyword from './plugins/my-plugins/vite-plugin-pre-replace-keyword.ts';
 import preReplaceKeywordResolveCurdir from './plugins/my-plugins/vite-plugin-pre-replace-keyword-resolve-curdir.ts';
+import pageFrontmatterInjectionTimestamp from './plugins/my-plugins/vite-plugin-page-frontmatter-injection-timestamp.ts'
 
 // 引入自定义 工具
 import getEnvValue from './utils/my-utils/get-env-value.ts';
@@ -186,6 +187,10 @@ export default defineConfig({
                 fileExtensionArray: ['.md'],
                 keyword:            "__CUR_DIR__",
                 envKey:             "VITEPRESS_PROJECT_ROOT_PATH"
+            }),
+
+            pageFrontmatterInjectionTimestamp({
+                fileExtensionArray: ['.md']
             })
         ]
     }

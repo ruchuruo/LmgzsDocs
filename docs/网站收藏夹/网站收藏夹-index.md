@@ -180,7 +180,7 @@ ul li:hover {
 /* 网站 ICO 图标 强制放在左上角 */
 ul li img {
     position: absolute;
-    top: 18px;
+    top: 0px;
     left: 20px;
     width: 24px;
     height: 24px;

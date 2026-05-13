@@ -22,7 +22,7 @@ import "./my-styles/fonts.css"                   // 字体
 // 引入自定义组件
 import BackToTop from './my-components/BackToTop-v2.vue'
 import LinkPreview from './my-components/LinkPreview-v2.vue'
-
+import ArticleHistory from './my-components/ArticleHistory-v1.vue'
 
 
 
@@ -48,7 +48,10 @@ export default {
       'layout-bottom': () => [
         h(BackToTop),
         h(LinkPreview)
-      ]
+      ],
+
+      // 在文档正文内容之前插入
+      'doc-before': () => h(ArticleHistory)
     })
   },
 

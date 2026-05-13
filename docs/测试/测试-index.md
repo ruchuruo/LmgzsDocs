@@ -1,4 +1,10 @@
-# 1
+---
+# layout: home
+hero:
+    name: "测试-index.md"
+---
+
+# 测试-index.md
 
 ## 顶部
 [#底部](#底部)

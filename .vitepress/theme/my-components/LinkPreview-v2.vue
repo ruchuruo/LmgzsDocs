@@ -374,11 +374,15 @@ watch(route, () => {
     flex-direction: column;
     overflow: hidden;
     width: 85vw;
-    height: 64vh;
+    height: 85vh;
     max-width: 1200px;
     background-color: var(--vp-c-bg); /* 跟随 VitePress 的暗/亮色主题 */
     border-radius: 12px;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+
+    @media (max-width: 959px) {
+        height: 64vh;
+    }
 }
 
 /* 悬浮窗头部 */
