@@ -12,9 +12,9 @@ import { legacyImgSize, imgSize, obsidianImgSize } from "@mdit/plugin-img-size";
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 
 // 引入自定义 Vite 插件
-import preReplaceKeyword from './plugins/my-plugins/vite-plugin-pre-replace-keyword.ts';
-import preReplaceKeywordResolveCurdir from './plugins/my-plugins/vite-plugin-pre-replace-keyword-resolve-curdir.ts';
-import pageFrontmatterInjectionTimestamp from './plugins/my-plugins/vite-plugin-page-frontmatter-injection-timestamp.ts'
+import replaceKeyword from './plugins/my-plugins/vitepress-plugin-replace-keyword.ts';
+import replaceKeywordResolveCurdir from './plugins/my-plugins/vitepress-plugin-replace-keyword-resolve-curdir.ts';
+import pageFrontmatterInjectionTimestamp from './plugins/my-plugins/vitepress-plugin-page-frontmatter-injection-timestamp.ts'
 
 // 引入自定义 工具
 import getEnvValue from './utils/my-utils/get-env-value.ts';
@@ -171,7 +171,7 @@ export default defineConfig({
     vite: {
         plugins: [
 
-            preReplaceKeyword({
+            replaceKeyword({
                 devEnvFilePath:     './.env.public.development',
                 buildEnvFilePath:   './.env.public.production',
                 encoding:           'utf-8',
@@ -180,7 +180,7 @@ export default defineConfig({
                 envKey:             'STATIC_ASSET_SERVER_URL',
             }),
 
-            preReplaceKeywordResolveCurdir({
+            replaceKeywordResolveCurdir({
                 devEnvFilePath:     './.env.public.development',
                 buildEnvFilePath:   './.env.public.production',
                 encoding:           'utf-8',

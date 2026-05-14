@@ -4,7 +4,7 @@ hero:
     name: "其他文档"
 ---
 
-## [VitePress使用的第三方资源](./VitePress/VitePress.md)
+## [本文档使用的资源](./VitePress/VitePress.md)
 
 ## [Apache](./Apache/Apache.md)
 

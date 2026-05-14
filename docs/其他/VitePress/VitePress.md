@@ -1,4 +1,4 @@
-# 使用的第三方资源
+# 本文档使用的资源
 
 ## 文档生成
 ::: info VitePress
@@ -31,40 +31,102 @@
 - [./readme.txt](./字体/uzura_font/readme.txt)
 :::
 
-## 包
+
+
+
+
+## npm 包
 ### 侧边栏生成
 ::: info jooy2/vitepress-sidebar
 - [github](https://github.com/jooy2/vitepress-sidebar)
 - [文档](https://vitepress-sidebar.cdget.com/)
-- [./README.md](./包/vitepress-sidebar/README.md)
+- [./README.md](./npm包/vitepress-sidebar/README.md)
 :::
 
 ### 选项卡
 ::: info vitepress-plugin-tabs
 - [github](https://github.com/sapphi-red/vitepress-plugins)
-- [./official-website.md](./包/vitepress-plugin-tabs/official-website.md)
-- [./README.md](./包/vitepress-plugin-tabs/README.md)
+- [./official-website.md](./npm包/vitepress-plugin-tabs/official-website.md)
+- [./README.md](./npm包/vitepress-plugin-tabs/README.md)
 :::
 
 ### 图片查看
 ::: info vitepress-plugin-image-viewer
 - [github](https://github.com/T-miracle/vitepress-plugin-image-viewer)
-- [./README.md](./包/vitepress-plugin-image-viewer/README.md)
+- [./README.md](./npm包/vitepress-plugin-image-viewer/README.md)
 :::
 
-### [Markdown It](./包/markdown-it/README.md)
+### [Markdown It](./npm包/markdown-it/README.md)
 #### 设置图片尺寸
 ::: info @mdit/plugin-img-size
 - [mdit-plugins.github.io](https://mdit-plugins.github.io/img-size.html)
-- [./README.md](./包/markdown-it/@mdit/plugin-img-size/README.md)
-- [./img-size.md](./包/markdown-it/@mdit/plugin-img-size/img-size.md)
-- [./img-size_zh.md](./包/markdown-it/@mdit/plugin-img-size/img-size_zh.md)
-- [./VitePress中使用](./包/markdown-it/@mdit/plugin-img-size/VitePress中使用.md)
+- [./README.md](./npm包/markdown-it/@mdit/plugin-img-size/README.md)
+- [./img-size.md](./npm包/markdown-it/@mdit/plugin-img-size/img-size.md)
+- [./img-size_zh.md](./npm包/markdown-it/@mdit/plugin-img-size/img-size_zh.md)
+- [./VitePress中使用](./npm包/markdown-it/@mdit/plugin-img-size/VitePress中使用.md)
 :::
 
 ### TypeScript
 #### Node.js 类型定义
 ::: info @types/node
 - [github](https://github.com/DefinitelyTyped/DefinitelyTyped)
-- [./README.md](./包/typescript/@types/node/README.md)
+- [./README.md](./npm包/typescript/@types/node/README.md)
+:::
+
+
+
+
+
+## 自定义
+### 插件
+#### 替换关键字
+::: info vitepress-plugin-replace-keyword.ts
+- [./replace-keyword.md](./自定义/插件/replace-keyword.md)
+:::
+
+#### 替换 关键字 为 当前目录 (相对路径)
+::: info vitepress-plugin-replace-keyword-resolve-curdir.ts
+- [./replace-keyword-resolve-curdir.md](./自定义/插件/replace-keyword-resolve-curdir.md)
+:::
+
+#### 在页面的 frontmatter 中注入文件的 Git 时间戳
+::: info vitepress-plugin-page-frontmatter-injection-timestamp.ts
+- [./page-frontmatter-injection-timestamp.md](./自定义/插件/page-frontmatter-injection-timestamp.md)
+:::
+
+### 组件
+#### 返回顶部
+::: info BackToTop-{ver}.vue
+- [./BackToTop.md](./自定义/组件/BackToTop.md)
+:::
+
+#### 链接预览
+::: info LinkPreview-{ver}.vue
+- [./LinkPreview.md](./自定义/组件/LinkPreview.md)
+:::
+
+#### 文章历史
+::: info ArticleHistory-{ver}.vue
+- [./ArticleHistory.md](./自定义/组件/ArticleHistory.md)
+:::
+
+### 工具
+#### 加载变量
+::: info load-env.ts
+- [./load-env.md](./自定义/工具/load-env.md)
+:::
+
+#### 获取变量值
+::: info get-env-value.ts
+- [./get-env-value.md](./自定义/工具/get-env-value.md)
+:::
+
+#### 获取时间
+::: info get-time.ts
+- [./get-time.md](./自定义/工具/get-time.md)
+:::
+
+#### 获取文件Git时间戳
+::: info get-file-git-timestamps.ts
+- [./get-file-git-timestamps.md](./自定义/工具/get-file-git-timestamps.md)
 :::

@@ -1,5 +1,4 @@
 import { type Plugin } from 'vitepress'
-import path from 'path'
 
 // 自定义工具
 import getEnvValue from '../../utils/my-utils/get-env-value'
@@ -27,7 +26,6 @@ interface ReplaceOptions {
     keyword: string;
 
     // 环境变量中对应的键名 比如 'VITE_ASSET_SERVER_URL'
-    // VitePress 网站的项目根目录 (在 VitePress 初始化时 默认为 "./docs")
     envKey: string;
 }
 
@@ -36,14 +34,14 @@ interface ReplaceOptions {
 
 
 /**
- * pre 阶段 替换 关键字 为 当前目录 (相对路径)
+ * pre 阶段 替换 关键字
  * - 从给定的 环境变量文件 中读取 变量
  * - 效果:
- *      - CUR_DIR -> dir1/dir11
- * @param options 
- * @returns 
+ *      - SERVER_URL -> http://127.0.0.1:8080
+ * @param options 插件配置项的接口
+ * @returns Plugin
  */
-export default function preReplaceKeywordResolveCurdir(options: ReplaceOptions): Plugin {
+export default function replaceKeyword(options: ReplaceOptions): Plugin {
 
     // 解构配置项
     const {
@@ -67,8 +65,8 @@ export default function preReplaceKeywordResolveCurdir(options: ReplaceOptions):
     })
 
     return {
-        name: 'vite-plugin-pre-replace-keyword-resolve-curdir', // 插件名称
-        enforce: 'pre',                                         // 强制插件在 VitePress 处理 Markdown 之前运行
+        name: 'vitepress-plugin-replace-keyword', // 插件名称
+        enforce: 'pre',                               // 强制插件在 VitePress 处理 Markdown 之前运行
 
         // code 是文件的原始字符串
         // id   是文件绝对路径
@@ -96,34 +94,12 @@ export default function preReplaceKeywordResolveCurdir(options: ReplaceOptions):
 
             // 如果标志为 true 则执行替换操作
             if (shouldProcess) {
-
-                // 获取项目根目录下的 docs 文件夹绝对路径
-                // const docsRoot = path.resolve(process.cwd(), 'docs');
-                const docsRoot = path.join(process.cwd(), finalEnvValue);
-
-                // 或许要加上判断路径是否存在, 如果不存在就返回
-
-                // 计算当前处理文件(id) 相对于 docs 根目录的路径
-                const docsFileRelativePath = path.relative(docsRoot, id);
-
-                // 获取该文件所在的目录部分
-                let docsFileDirRelativePath = path.dirname(docsFileRelativePath);
-
-                // 如果文件在 docs 根目录 dirnameResult 会是 "."
-                // 我们把它转换成空字符串，避免出现 "@xx/." 这种路径
-                if (docsFileDirRelativePath === '.') {
-                    docsFileDirRelativePath = '';
-                }
-
-                // 将所有反斜杠转换为正斜杠
-                docsFileDirRelativePath = docsFileDirRelativePath.replace(/\\/g, '/');
-
                 // 执行全局替换
                 // 使用正则转义，防止 keyword 包含特殊字符导致正则失效
                 const safeKeyword = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
                 const regexObj = new RegExp(safeKeyword, 'g');
 
-                return code.replace(regexObj, docsFileDirRelativePath);
+                return code.replace(regexObj, finalEnvValue);
             }
 
             // 否则返回 null 不做处理

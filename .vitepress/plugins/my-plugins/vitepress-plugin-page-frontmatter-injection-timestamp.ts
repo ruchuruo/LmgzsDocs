@@ -29,8 +29,8 @@ export default function pageFrontmatterInjectionTimestamp(options: InjectionOpti
     } = options;
 
     return {
-        name: 'vite-plugin-page-frontmatter-injection-timestamp', // 插件名称
-        enforce: 'pre',                                           // 强制插件在 VitePress 处理 Markdown 之前运行
+        name: 'vitepress-plugin-page-frontmatter-injection-timestamp', // 插件名称
+        enforce: 'pre',                                                // 强制插件在 VitePress 处理 Markdown 之前运行
 
         // code 是文件的原始字符串
         // id   是文件绝对路径
