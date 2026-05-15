@@ -79,19 +79,19 @@
 
 ## 自定义
 ### 插件
-#### 替换关键字
-::: info vitepress-plugin-replace-keyword.ts
-- [./replace-keyword.md](./自定义/插件/replace-keyword.md)
+#### 预处理 替换关键字
+::: info vitepress-plugin-pre-replace-keyword.ts
+- [./pre-replace-keyword.md](./自定义/插件/pre-replace-keyword.md)
 :::
 
-#### 替换 关键字 为 当前目录 (相对路径)
-::: info vitepress-plugin-replace-keyword-resolve-curdir.ts
-- [./replace-keyword-resolve-curdir.md](./自定义/插件/replace-keyword-resolve-curdir.md)
+#### 预处理 替换关键字 为 当前目录 (相对路径)
+::: info vitepress-plugin-pre-replace-keyword-resolve-curdir.ts
+- [./pre-replace-keyword-resolve-curdir.md](./自定义/插件/pre-replace-keyword-resolve-curdir.md)
 :::
 
-#### 在页面的 frontmatter 中注入文件的 Git 时间戳
-::: info vitepress-plugin-page-frontmatter-injection-timestamp.ts
-- [./page-frontmatter-injection-timestamp.md](./自定义/插件/page-frontmatter-injection-timestamp.md)
+#### 预处理 在页面的 frontmatter 中注入文件的 Git 时间戳
+::: info vitepress-plugin-pre-page-frontmatter-injection-timestamp.ts
+- [./pre-page-frontmatter-injection-timestamp.md](./自定义/插件/pre-page-frontmatter-injection-timestamp.md)
 :::
 
 ### 组件

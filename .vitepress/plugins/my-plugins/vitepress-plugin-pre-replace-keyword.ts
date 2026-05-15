@@ -41,7 +41,7 @@ interface ReplaceOptions {
  * @param options 插件配置项的接口
  * @returns Plugin
  */
-export default function replaceKeyword(options: ReplaceOptions): Plugin {
+export default function preReplaceKeyword(options: ReplaceOptions): Plugin {
 
     // 解构配置项
     const {
@@ -65,7 +65,7 @@ export default function replaceKeyword(options: ReplaceOptions): Plugin {
     })
 
     return {
-        name: 'vitepress-plugin-replace-keyword', // 插件名称
+        name: 'vitepress-plugin-pre-replace-keyword', // 插件名称
         enforce: 'pre',                               // 强制插件在 VitePress 处理 Markdown 之前运行
 
         // code 是文件的原始字符串

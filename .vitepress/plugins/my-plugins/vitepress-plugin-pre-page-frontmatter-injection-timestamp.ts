@@ -21,7 +21,7 @@ interface InjectionOptions {
 /**
  * 在页面的 frontmatter 中注入文件的 Git 时间戳
  */
-export default function pageFrontmatterInjectionTimestamp(options: InjectionOptions): Plugin {
+export default function prePageFrontmatterInjectionTimestamp(options: InjectionOptions): Plugin {
 
     // 解构配置项
     const {
@@ -29,8 +29,8 @@ export default function pageFrontmatterInjectionTimestamp(options: InjectionOpti
     } = options;
 
     return {
-        name: 'vitepress-plugin-page-frontmatter-injection-timestamp', // 插件名称
-        enforce: 'pre',                                                // 强制插件在 VitePress 处理 Markdown 之前运行
+        name: 'vitepress-plugin-pre-page-frontmatter-injection-timestamp', // 插件名称
+        enforce: 'pre',                                                    // 强制插件在 VitePress 处理 Markdown 之前运行
 
         // code 是文件的原始字符串
         // id   是文件绝对路径

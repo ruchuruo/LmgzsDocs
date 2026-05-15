@@ -43,7 +43,7 @@ interface ReplaceOptions {
  * @param options 
  * @returns 
  */
-export default function replaceKeywordResolveCurdir(options: ReplaceOptions): Plugin {
+export default function preReplaceKeywordResolveCurdir(options: ReplaceOptions): Plugin {
 
     // 解构配置项
     const {
@@ -67,7 +67,7 @@ export default function replaceKeywordResolveCurdir(options: ReplaceOptions): Pl
     })
 
     return {
-        name: 'vitepress-plugin-replace-keyword-resolve-curdir', // 插件名称
+        name: 'vitepress-plugin-pre-replace-keyword-resolve-curdir', // 插件名称
         enforce: 'pre',                                              // 强制插件在 VitePress 处理 Markdown 之前运行
 
         // code 是文件的原始字符串
