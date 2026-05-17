@@ -8,7 +8,7 @@ hero:
 
 ## [Apache](./Apache/Apache.md)
 
-## [安装和设置ubuntu-22.04.3-live-server-amd64](./Linux/安装和设置ubuntu-22.04.3-live-server-amd64.md)
+## [Linux](./Linux/Linux.md)
 
 ## [Windows](./Windows/Windows.md)
 
