@@ -16,7 +16,7 @@ hero:
       link: /成员/成员-index
     - theme: alt
       text: 加入我们
-      link: /合作须知/合作须知-index
+      link: /维护手册/维护手册-index
 
 features:
   - title: "落梦工作室"
@@ -31,7 +31,7 @@ features:
     details: ●Apache ●Linux ●VitePress ●Windows ●我的世界模组...
     link: /其他/其他文档-index
 
-  - title: 合作须知
+  - title: 维护手册
     details: 文档合作 多平台管理员 设备合作
-    link: /合作须知/合作须知-index
+    link: /维护手册/维护手册-index
 ---

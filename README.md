@@ -58,3 +58,12 @@ npm install
 ```c
 npm run docs:dev
 ```
+
+
+
+### 注意事项
+每次运行 `dev` 启动命令时，NodeJS `process.env.NODE_ENV` 可能不为 `development`
+
+所以会读取 `.env.public.production` 变量文件
+
+需要重启来获取正确的 环境变量，在任务终端中键入 `r`

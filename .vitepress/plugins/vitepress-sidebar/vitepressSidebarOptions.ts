@@ -71,9 +71,9 @@ export const vitepressSidebarOptions = [
     },
     {
         documentRootPath: 'docs',                // 文档根路径
-        scanStartPath: '合作须知',               // 从 `docs/guides` 目录开始扫描
-        resolvePath: '/合作须知/',               // 配置多个侧边栏 解析路径
-        basePath: '/合作须知/',                  // 配置多个侧边栏 绝对路径
+        scanStartPath: '维护手册',               // 从 `docs/guides` 目录开始扫描
+        resolvePath: '/维护手册/',               // 配置多个侧边栏 解析路径
+        basePath: '/维护手册/',                  // 配置多个侧边栏 绝对路径
         useTitleFromFileHeading: true,           // 使用文件中的第一个标题作为侧边栏项的文本
         useTitleFromFrontmatter: true,           // 使用Frontmatter作为侧边栏项的文本
         hyphenToSpace: true,                     // 将文件名中的连字符转换为空格
