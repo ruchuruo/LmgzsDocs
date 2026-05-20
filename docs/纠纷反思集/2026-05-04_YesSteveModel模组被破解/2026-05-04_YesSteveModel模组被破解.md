@@ -5,8 +5,9 @@
     import post20260509tiebabaiducomid330528325 from './posts/2026-05-09_tieba.baidu.com_id330528325.md'
     import post20260510catme0worg from './posts/2026-05-10_catme0w.org.md'
     import post20260511tmenoobangelic47 from './posts/2026-05-11_t.me_noobangelic47.md'
-    import post20260516bilibilicomuid3546688184650374 from './posts/2026-05-16_bilibili.com_uid3546688184650374.md'
     import post20260515bilibilicomuid596955075 from './posts/2026-05-15_bilibili.com_uid596955075.md'
+    import post20260516bilibilicomuid3546688184650374 from './posts/2026-05-16_bilibili.com_uid3546688184650374.md'
+    import post20260520bilibilicomuid596955075 from './posts/2026-05-20_bilibili.com_uid596955075.md'
 </script>
 
 
@@ -41,8 +42,12 @@ telegram 频道
 - [AngelLab 🪽 ~ 47姐的空翻日常 ✨](https://t.me/noobangelic47/514)
 
 哔哩哔哩
-- [MurthiNext](https://space.bilibili.com/596955075) - [YSM被逆向并开源，浅谈“艺术理应共享” \[若能付诸言语#2\]](https://www.bilibili.com/video/BV1CMLg6rEdg/)
-- [Hylberra希尔贝拉](https://space.bilibili.com/3546688184650374) - [【攻击向杂谈】为什么我不赞成YSM此时宣布开源的决定](https://www.bilibili.com/video/BV1RSL36aEnM/)
+- [MurthiNext](https://space.bilibili.com/596955075)
+    - ~~[YSM被逆向并开源，浅谈“艺术理应共享” \[若能付诸言语#2\]](https://www.bilibili.com/video/BV1CMLg6rEdg/)~~
+    - ~~[看清YSM收费乱象，别为违法行为开脱！ [若能付诸言语#2-2]](https://www.bilibili.com/video/BV1HxLz6XEWr/)~~
+
+- [Hylberra希尔贝拉](https://space.bilibili.com/3546688184650374)
+    - ~~[【攻击向杂谈】为什么我不赞成YSM此时宣布开源的决定](https://www.bilibili.com/video/BV1RSL36aEnM/)~~
 :::
 
 
@@ -117,4 +122,13 @@ telegram 频道
 ## 2026-05-16 [转载] [【攻击向杂谈】为什么我不赞成YSM此时宣布开源的决定](https://www.bilibili.com/video/BV1RSL36aEnM/)
 ::: details
 <post20260516bilibilicomuid3546688184650374 />
+:::
+
+
+
+
+
+## 2026-05-20 [转载] [看清YSM收费乱象，别为违法行为开脱！ [若能付诸言语#2-2]](https://www.bilibili.com/video/BV1HxLz6XEWr/)
+::: details
+<post20260520bilibilicomuid596955075 />
 :::
