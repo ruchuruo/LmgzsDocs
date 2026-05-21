@@ -7,7 +7,7 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 
     /* 网格行和列之间的间距 */
-    gap: 1%;
+    gap: 10px;
 }
 
 

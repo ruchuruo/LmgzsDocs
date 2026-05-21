@@ -168,7 +168,7 @@ ul {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 
     /* 网格行和列之间的间距 */
-    gap: 1%;
+    /* gap: 1%; */
 
     /* margin: 0; */
     /* padding: 0; */
