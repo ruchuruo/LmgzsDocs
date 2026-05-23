@@ -189,6 +189,24 @@ export default defineConfig({
                 envKey:             "VITEPRESS_PROJECT_ROOT_PATH"
             }),
 
+            preReplaceKeyword({
+                devEnvFilePath:     './.env.public.development',
+                buildEnvFilePath:   './.env.public.production',
+                encoding:           'utf-8',
+                fileExtensionArray: ['.css'],
+                keyword:            '__LmgzsDocs_BACKGROUND_IMAGE_LIGHT_SERVER_URL__',
+                envKey:             'BACKGROUND_IMAGE_LIGHT_SERVER_URL',
+            }),
+
+            preReplaceKeyword({
+                devEnvFilePath:     './.env.public.development',
+                buildEnvFilePath:   './.env.public.production',
+                encoding:           'utf-8',
+                fileExtensionArray: ['.css'],
+                keyword:            '__LmgzsDocs_BACKGROUND_IMAGE_DARK_SERVER_URL__',
+                envKey:             'BACKGROUND_IMAGE_DARK_SERVER_URL',
+            }),
+
             prePageFrontmatterInjectionTimestamp({
                 fileExtensionArray: ['.md']
             })
