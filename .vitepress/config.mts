@@ -26,8 +26,8 @@ import getTime from './utils/my-utils/get-time.ts';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    outDir: `./.vitepress/dist/${getTime("--_..")}`, // 相对于项目根目录的 项目的构建输出位置 (默认值: ./.vitepress/dist)
-    srcDir: './docs',                                // 相对于项目根目录的 markdown 文件所在的文件夹 (默认值: .)
+    outDir: `./.vitepress/dist/${getTime("--_..") || 'NoneTime'}`, // 相对于项目根目录的 项目的构建输出位置 (默认值: ./.vitepress/dist)
+    srcDir: './docs',                                              // 相对于项目根目录的 markdown 文件所在的文件夹 (默认值: .)
     // base: "/files/markdown/", // 网站部署在非根路径下使用 (默认值: /)
 
     lang: 'zh-CN',
