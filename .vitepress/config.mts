@@ -59,21 +59,22 @@ export default defineConfig({
                     {
                         text: '落梦其他网站',
                         items: [
-                            { text: '文件夹', link: ' http://lmgzs.fun:440/files/', target: '_self'},
-                            { text: '落梦 Skin (皮肤站)', link: 'http://lmgzs.fun:888/' }
+                            { text: '文件夹', link: ' http://lmgzs.fun:440/files/', target: '_blank'},
+                            { text: '落梦 Skin (皮肤站)', link: 'http://lmgzs.fun:888/', target: '_blank'}
                         ]
                     },
                     {
                         text: '壁纸',
                         items: [
-                            { text: '本站壁纸', link: '/其他/壁纸/壁纸', target: '_self'}
+                            { text: '本站壁纸', link: '/其他/壁纸/壁纸'}
                         ]
                     },
                     {
                         text: '实用网站',
                         items: [
                             { text: '网站收藏夹', link: '/网站收藏夹/网站收藏夹-index' },
-                            { text: '静态站点', link: '/静态站点/静态站点-index' }
+                            { text: '静态站点', link: '/静态站点/静态站点-index' },
+                            { text: '友情链接', link: '/友情链接/友情链接-index' }
                         ]
                     }
                 ]

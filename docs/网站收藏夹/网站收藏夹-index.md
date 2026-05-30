@@ -229,11 +229,11 @@ ul li a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: calc(100% - 74px); 
+    width: calc(100% - 74px);
 }
 
 ul li a:hover {
-    color: var(--vp-c-indigo-1); 
+    color: var(--vp-c-indigo-1);
 }
 
 </style>
