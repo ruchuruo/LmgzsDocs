@@ -1,0 +1,137 @@
+
+======== ======== 锐评 ======== ========
+
+
+
+
+
+======== ======== 群员对话 ======== ========
+
+
+
+
+
+======== ======== 文件处理任务 ======== ========
+
+
+
+
+
+======== ======== 聊天记录内嵌 ======== ========
+
+<audio src="./audio/voices/" controls>你的浏览器不支持音频标签</audio>
+
+
+
+<!-- 
+name: 01-18 
+<audio src="./audio/voices/" controls>你的浏览器不支持音频标签</audio>
+[语音]
+ -->
+
+
+
+
+
+
+<img width="200" src="__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/QQgroup_PicOri_tangyuan/
+<img width="200" src="__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/QQgroup_PicOri_w6tan/
+
+
+
+
+
+<pre>
+    [图片描述]
+    [群聊天记录]
+</pre>
+<pre>
+    [图片描述]
+    [私聊]
+</pre>
+
+
+
+
+
+<br>
+时间: 
+<br>
+内容: 
+
+======== ======== 截图标准 ======== ========
+
+670**
+471*771
+
+
+
+======== ======== 截图范围 ======== ========
+
+r
+阶段x从
+    
+
+到
+    
+
+阶段x从
+    
+
+到
+    
+
+
+
+w
+阶段x从
+    
+
+到
+    
+
+阶段x从
+    
+
+到
+    
+
+
+发本服务器的聊天截图
+
+======== ======== qce-v4-tool ======== ========
+✔包含系统消息
+
+✔仅保留文件元数据，不下载文件
+
+❌优先使用群成员名称
+
+
+
+
+
+======== ======== 其他 ======== ========
+
+^  - image: (.*?$)
+^  - image: (.*?\..*?$)
+<img width="200" src="__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/QQgroup_PicOri_tangyuan/$1" />
+
+Get-ChildItem *_*.* | Rename-Item -NewName { $_.Name -replace '^.*?_', '' }
+
+
+
+
+
+2026-06-04_QQ群聊天记录-tangyuan_1-
+2026-06-01_QQ群聊天记录-w6tan_1-
+
+
+**文本对应以下截图**
+```c
+
+```
+
+---
+
+
+
