@@ -64,8 +64,11 @@ export default defineConfig({
                 buildEnvFilePath:   './.env.public.production',
                 encoding:           'utf-8',
                 fileExtensionArray: ['.md', '.css'],
-                keyword:            '__lmgzsDocs_STATIC_ASSET_SERVER__',
-                envKey:             'STATIC_ASSET_SERVER_URL',
+                keyAndEnv:          {
+                    '__lmgzsDocs_STATIC_ASSET_SERVER__'          : 'DOCS_STATIC_ASSET_SERVER',
+                    '__lmgzsDocs_BACKGROUND_IMAGE_LIGHT_SERVER__': 'BACKGROUND_IMAGE_LIGHT_SERVER',
+                    '__lmgzsDocs_BACKGROUND_IMAGE_DARK_SERVER__' : 'BACKGROUND_IMAGE_DARK_SERVER'
+                }
             })
         ]
     }

@@ -17,8 +17,12 @@ import preReplaceKeywordResolveCurdir from './plugins/my-plugins/vitepress-plugi
 import prePageFrontmatterInjectionTimestamp from './plugins/my-plugins/vitepress-plugin-pre-page-frontmatter-injection-timestamp.ts'
 
 // 引入自定义 工具
-import getEnvValue from './utils/my-utils/get-env-value.ts';
-import getTime from './utils/my-utils/get-time.ts';
+import {
+    getOutDir,
+    getNavLogoServer,
+    getFileIndexServer,
+    getMinecraftSkinServer
+} from './utils/my-utils/get-site-config-value.ts';
 
 
 
@@ -28,10 +32,7 @@ import getTime from './utils/my-utils/get-time.ts';
 export default defineConfig({
 
     // 相对于项目根目录的 项目的构建输出位置 (默认值: ./.vitepress/dist)
-    outDir: 
-            process.env.GITHUB_PAGES_BUILD_OUT_DIR ||
-            process.env.CLOUDFLARE_PAGES_BUILD_OUT_DIR ||
-            `./.vitepress/dist/${getTime("--_..") || 'NoneTime'}`,
+    outDir: `./.vitepress/dist/${getOutDir() || 'NoneTime'}`,
 
     srcDir: './docs', // 相对于项目根目录的 markdown 文件所在的文件夹 (默认值: .)
     // base: "/files/markdown/", // 网站部署在非根路径下使用 (默认值: /)
@@ -49,12 +50,7 @@ export default defineConfig({
     themeConfig: {
 
         // 导航栏上显示的 Logo 位于站点标题前
-        logo: getEnvValue({
-            devEnvFilePath:   './.env.public.development',
-            buildEnvFilePath: './.env.public.production',
-            encoding:         'utf-8',
-            envKey:           'STATIC_ASSET_SERVER_URL',
-        }) + "/public/images/icon/icon.png",
+        logo: getNavLogoServer(),
 
         // 导航栏
         nav: [
@@ -65,8 +61,8 @@ export default defineConfig({
                     {
                         text: '落梦其他网站',
                         items: [
-                            { text: '文件夹', link: ' http://lmgzs.fun:440/files/', target: '_blank'},
-                            { text: '落梦 Skin (皮肤站)', link: 'http://lmgzs.fun:888/', target: '_blank'}
+                            { text: '文件夹', link: getFileIndexServer(), target: '_blank'},
+                            { text: '落梦 Skin (皮肤站)', link: getMinecraftSkinServer(), target: '_blank'}
                         ]
                     },
                     {
@@ -183,8 +179,11 @@ export default defineConfig({
                 buildEnvFilePath:   './.env.public.production',
                 encoding:           'utf-8',
                 fileExtensionArray: ['.md', '.css'],
-                keyword:            '__LmgzsDocs_STATIC_ASSET_SERVER__',
-                envKey:             'STATIC_ASSET_SERVER_URL',
+                keyAndEnv:          {
+                    '__LmgzsDocs_STATIC_ASSET_SERVER__'          : 'DOCS_STATIC_ASSET_SERVER',
+                    '__LmgzsDocs_BACKGROUND_IMAGE_LIGHT_SERVER__': 'BACKGROUND_IMAGE_LIGHT_SERVER',
+                    '__LmgzsDocs_BACKGROUND_IMAGE_DARK_SERVER__' : 'BACKGROUND_IMAGE_DARK_SERVER'
+                }
             }),
 
             preReplaceKeywordResolveCurdir({
@@ -194,24 +193,6 @@ export default defineConfig({
                 fileExtensionArray: ['.md'],
                 keyword:            "__CUR_DIR__",
                 envKey:             "VITEPRESS_PROJECT_ROOT_PATH"
-            }),
-
-            preReplaceKeyword({
-                devEnvFilePath:     './.env.public.development',
-                buildEnvFilePath:   './.env.public.production',
-                encoding:           'utf-8',
-                fileExtensionArray: ['.css'],
-                keyword:            '__LmgzsDocs_BACKGROUND_IMAGE_LIGHT_SERVER_URL__',
-                envKey:             'BACKGROUND_IMAGE_LIGHT_SERVER_URL',
-            }),
-
-            preReplaceKeyword({
-                devEnvFilePath:     './.env.public.development',
-                buildEnvFilePath:   './.env.public.production',
-                encoding:           'utf-8',
-                fileExtensionArray: ['.css'],
-                keyword:            '__LmgzsDocs_BACKGROUND_IMAGE_DARK_SERVER_URL__',
-                envKey:             'BACKGROUND_IMAGE_DARK_SERVER_URL',
             }),
 
             prePageFrontmatterInjectionTimestamp({

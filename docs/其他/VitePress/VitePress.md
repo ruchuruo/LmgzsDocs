@@ -130,3 +130,8 @@
 ::: info get-file-git-timestamps.ts
 - [./get-file-git-timestamps.md](./自定义/工具/get-file-git-timestamps.md)
 :::
+
+#### 获取网站配置值
+::: info get-site-config-value.ts
+- [./get-site-config-value.md](./自定义/工具/get-site-config-value.md)
+:::

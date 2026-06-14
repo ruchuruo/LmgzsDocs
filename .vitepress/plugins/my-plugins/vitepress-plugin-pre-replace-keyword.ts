@@ -22,11 +22,15 @@ interface ReplaceOptions {
     // 要处理的文件后缀列表
     fileExtensionArray: string[];
 
-    // 要替换的关键字 比如 '@server'
-    keyword: string;
-
-    // 环境变量中对应的键名 比如 'VITE_ASSET_SERVER_URL'
-    envKey: string;
+    // 存储 "关键字" -> "环境变量键名" 的映射关系
+    // Record<string, string> 类型的对象
+    /*
+        {
+            "关键字" : "环境变量键名",
+            "@server" : "VITE_ASSET_SERVER_URL"
+        }
+    */
+    keyAndEnv: Record<string, string>;
 }
 
 
@@ -49,20 +53,22 @@ export default function preReplaceKeyword(options: ReplaceOptions): Plugin {
         buildEnvFilePath,
         encoding = 'utf-8',
         fileExtensionArray,
-        keyword,
-        envKey
+        keyAndEnv
     } = options;
 
-    // 最终要替换的值
-    let finalEnvValue = '';
+    // 存储 "关键字" -> "最终环境变量值" 的映射关系
+    const replaceMap: Record<string, string> = {};
 
-    // 获取给定的 键 对应的 值
-    finalEnvValue = getEnvValue({
-        devEnvFilePath:   devEnvFilePath,
-        buildEnvFilePath: buildEnvFilePath,
-        encoding:         encoding,
-        envKey:           envKey,
-    })
+    // 遍历 keyAndEnv 对象
+    for (const [keyword, envKey] of Object.entries(keyAndEnv)) {
+        // 获取给定的 键 对应的 值
+        replaceMap[keyword] = getEnvValue({
+            devEnvFilePath:   devEnvFilePath,
+            buildEnvFilePath: buildEnvFilePath,
+            encoding:         encoding,
+            envKey:           envKey,
+        });
+    }
 
     return {
         name: 'vitepress-plugin-pre-replace-keyword', // 插件名称
@@ -96,10 +102,16 @@ export default function preReplaceKeyword(options: ReplaceOptions): Plugin {
             if (shouldProcess) {
                 // 执行全局替换
                 // 使用正则转义，防止 keyword 包含特殊字符导致正则失效
-                const safeKeyword = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                const regexObj = new RegExp(safeKeyword, 'g');
+                // const safeKeyword = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                // const regexObj = new RegExp(safeKeyword, 'g');
+                // return code.replace(regexObj, finalEnvValue);
+                for (const [keyword, envValue] of Object.entries(replaceMap)) {
+                    const safeKeyword = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                    const regexObj = new RegExp(safeKeyword, 'g');
+                    code = code.replace(regexObj, envValue);
+                }
 
-                return code.replace(regexObj, finalEnvValue);
+                return code;
             }
 
             // 否则返回 null 不做处理
