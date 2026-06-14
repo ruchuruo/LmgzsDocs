@@ -32,7 +32,7 @@ import {
 export default defineConfig({
 
     // 相对于项目根目录的 项目的构建输出位置 (默认值: ./.vitepress/dist)
-    outDir: `./.vitepress/dist/${getOutDir() || 'NoneTime'}`,
+    outDir: `${getOutDir() || './.vitepress/dist/NoneTime'}`,
 
     srcDir: './docs', // 相对于项目根目录的 markdown 文件所在的文件夹 (默认值: .)
     // base: "/files/markdown/", // 网站部署在非根路径下使用 (默认值: /)
