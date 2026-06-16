@@ -1,7 +1,7 @@
-# Secure Firewall Management Center
+# Secure Firewall Management Center 安装在 VMware Workstation
 ---
 
-![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firewall-management-center/fmc-demo-gui-1550x936.avif)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/fmc-demo-gui-1550x936.avif)
 
 ::: info 2025年7月27日
 :::
@@ -63,7 +63,7 @@ FTD
 - 查看官方教程时应该在 熟悉的语言教程 和 英语教程 中切换对比
 :::
 
-![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/firewall-management-center/fmc_accordion_available_form_factors_878x659.avif)
+![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/fmc_accordion_available_form_factors_878x659.avif)
 
 
 
