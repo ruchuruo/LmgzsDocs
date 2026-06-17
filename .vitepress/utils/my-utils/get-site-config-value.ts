@@ -17,6 +17,16 @@ export function getOutDir(): string {
             `./.vitepress/dist/${getTime("--_..") || 'NoneTime'}`
 }
 
+// 获取 favicon
+export function getFavicon(): string {
+    return  getEnvValue({
+                devEnvFilePath:   './.env.public.development',
+                buildEnvFilePath: './.env.public.production',
+                encoding:         'utf-8',
+                envKey:           'DOCS_STATIC_ASSET_SERVER',
+            }) + "/public/images/icon/favicon.svg"
+}
+
 // 获取 导航栏logo url
 export function getNavLogoServer(): string {
     return  getEnvValue({
@@ -24,7 +34,7 @@ export function getNavLogoServer(): string {
                 buildEnvFilePath: './.env.public.production',
                 encoding:         'utf-8',
                 envKey:           'DOCS_STATIC_ASSET_SERVER',
-            }) + "/public/images/icon/icon.png"
+            }) + "/public/images/icon/nav-logo.svg"
 }
 
 // 获取 文件索引服务器

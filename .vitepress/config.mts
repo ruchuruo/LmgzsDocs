@@ -19,6 +19,7 @@ import prePageFrontmatterInjectionTimestamp from './plugins/my-plugins/vitepress
 // 引入自定义 工具
 import {
     getOutDir,
+    getFavicon,
     getNavLogoServer,
     getFileIndexServer,
     getMinecraftSkinServer
@@ -44,6 +45,13 @@ export default defineConfig({
 
     lastUpdated: true,     // 显示最后更新时间
     ignoreDeadLinks: true, // 当设置为 true 时，VitePress 不会因为死链而导致构建失败。
+
+    head: [
+        [   // favicon
+            'link',
+            { rel: 'icon', href: getFavicon() }
+        ]
+    ],
 
     // 主题配置
     // https://vitepress.dev/reference/default-theme-config
