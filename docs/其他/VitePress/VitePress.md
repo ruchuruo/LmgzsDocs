@@ -22,6 +22,7 @@
 :::
 
 ## 字体
+### azukifont
 ::: info azuki_font
 - [官网](http://azukifont.com/)
 - [./readme.txt](./字体/azuki_font/readme.txt)
@@ -29,6 +30,12 @@
 ::: info uzura_font
 - [官网](http://azukifont.com/)
 - [./readme.txt](./字体/uzura_font/readme.txt)
+:::
+
+### subframe7536
+::: info Maple Mono
+- [github](https://github.com/subframe7536/maple-font)
+- [LICENSE.txt](./字体/MapleMono/LICENSE.txt)
 :::
 
 

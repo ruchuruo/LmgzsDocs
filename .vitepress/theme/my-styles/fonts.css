@@ -1,32 +1,72 @@
+
+/* 外部web 分包的字体 */
+
+/* "Maple Mono NF CN" */
+@import url("__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/maple/MapleMono-NF-CN-Regular/result.css");
+
+
+
+
+
+/* 注册 */
+
+/* azuki */
 @font-face {
     font-family: 'azuki_font';
-    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/azuki_font.ttf') format('truetype');
+    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/azuki/azuki_font.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'uzura_font';
-    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/uzura_font.ttf') format('truetype');
+    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/azuki/uzura_font.ttf') format('truetype');
 }
+
+
+
+/* Maple Mono */
 /* 
 @font-face {
-    font-family: '方正字汇-雨木圆圆体-简';
-    src: url('/fonts/方正字汇-雨木圆圆体-简.TTF') format('truetype');
+    常规体
+    font-family: 'Maple Mono';
+    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/maple/MapleMonoNL-Regular.ttf.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    斜体
+    font-family: 'Maple Mono';
+    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/maple/MapleMonoNL-Italic.ttf.woff2') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    粗体
+    font-family: 'Maple Mono';
+    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/maple/MapleMonoNL-Bold.ttf.woff2') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    粗斜体
+    font-family: 'Maple Mono';
+    src: url('__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/maple/MapleMonoNL-BoldItalic.ttf.woff2') format('truetype');
+    font-weight: bold;
+    font-style: italic;
 }
  */
 
 
 
 
-:root {
-    /* normal text font */
-    /* --vp-font-family-base: uzura_font, 方正字汇-雨木圆圆体-简; */
-    /* --vp-font-family-base: 方正字汇-雨木圆圆体-简; */
-    /* --vp-font-family-base: sans-serif, uzura_font; */
 
-    /* code font */
-    /* --vp-font-family-mono: azuki_font; */
+/* 使用 */
+
+/* layout:home name:"标题" */
+.VPHomeHero .name {
+    font-family: uzura_font;
 }
 
-.name {
-    font-family: uzura_font;
+/* 代码块 */
+.vp-doc code {
+    font-family: 'Maple Mono NF CN';
 }
