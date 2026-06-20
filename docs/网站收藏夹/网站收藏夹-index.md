@@ -15,6 +15,7 @@ hero:
 
 ## 教程
 - [你缺失的那门计算机课](https://www.criwits.top/missing/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/www.criwits.top.png)这是一份适合电脑小白入门的电脑使用课程。它平易近人，娓娓道来，介绍了从基本的文件管理，到软件的寻找安装，再到各类使用技巧与优良软件推荐的许多内容，旨在帮助读者在信息化时代更灵活地使用电脑。
+- [计算机科学自学指南](https://csdiy.wiki/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/csdiy.wiki.ico)这是一本计算机的自学指南，也是对自己大学三年自学生涯的一个纪念。<br>这同时也是一份献给北大信科学弟学妹们的礼物。如果这本书能对你们的信科生涯有哪怕一丝一毫的帮助，都是对我极大的鼓励和慰藉。
 
 
 
@@ -149,9 +150,19 @@ hero:
 
 
 
+## 文件分享
+- [在线剪贴板](https://clipboardify.com/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/clipboardify.com.png)在线剪贴板（网页剪贴板）是一个免费、无需登录、即开即用的在线工具，可让您在手机、平板和电脑等设备间复制和粘贴文本。<br>一旦设备使用代码检索数据，数据即从服务器删除。
+- [在线剪贴板 zh-cn](https://clipboardify.com/zh-cn/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/clipboardify.com.png)在线剪贴板（网页剪贴板）是一个免费、无需登录、即开即用的在线工具，可让您在手机、平板和电脑等设备间复制和粘贴文本。<br>一旦设备使用代码检索数据，数据即从服务器删除。
+- [极简网络剪贴板](https://jian.la/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/jian.la.ico)无需注册，安全加密的跨平台文本在线共享便签。通过唯一专属URL跨设备同步。
+- [ClipShare](https://magictool.ai/tool/online-clipboard/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/magictool.ai.ico)您可以将此工具视为在线剪贴板。在这里，您可以轻松地在不同设备之间共享链接和文本，只需将文本粘贴到下面，然后从任何其他设备上的同一页面复制回来即可。
+
+
+
+
+
 ## 其他
 - [SOSO云盘](https://www.sosoyunpan.com/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/www.sosoyunpan.com.ico)SOSO云盘 - 一站式搜索百度网盘、阿里云盘、夸克网盘、迅雷云盘、123云盘等资源。
-<br>
+- [freemediaheckyeah](https://fmhy.net/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/fmhy.net.webp)The largest collection of free stuff on the internet!<br>互联网上最大的免费资源库！
 
 
 

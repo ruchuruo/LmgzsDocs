@@ -26,9 +26,9 @@ features:
   - title: 啸霄领域
     details: 公告 帮助 更新日志 贡献
     link: /啸霄领域/啸霄领域文档-index
-    
+
   - title: 其他
-    details: ●Apache ●Linux ●VitePress ●Windows ●我的世界模组...
+    details: ●本文档使用的资源 ●壁纸 ●Linux ●Windows ●杂项...
     link: /其他/其他文档-index
 
   - title: 维护手册
