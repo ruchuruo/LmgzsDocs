@@ -1,8 +1,17 @@
 
 /* 外部web 分包的字体 */
 
-/* "Maple Mono NF CN" */
+/* "Maple Mono NF CN"
+    带有连字的默认版本 (Maple Mono)
+    完整版本，嵌入图标、中文和日文字形 (带有 -NF-CN 后缀)
+ */
 @import url("__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/maple/MapleMono-NF-CN-Regular/result.css");
+
+/* "Maple Mono NL NF CN"
+    没有连字的默认版本 (Maple Mono NL)
+    完整版本，嵌入图标、中文和日文字形 (带有 -NF-CN 后缀)
+ */
+@import url("__LmgzsDocs_STATIC_ASSET_SERVER__/public/fonts/maple/MapleMonoNL-NF-CN-Regular/result.css");
 
 
 
@@ -68,5 +77,5 @@
 
 /* 代码块 */
 .vp-doc code {
-    font-family: 'Maple Mono NF CN';
+    font-family: "Maple Mono NL NF CN";
 }
