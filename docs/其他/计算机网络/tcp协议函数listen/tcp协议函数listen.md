@@ -1,4 +1,4 @@
-# tcp函数listen
+# tcp协议函数listen
 ::: info 函数
 listen(sockfd, backlog)
 :::

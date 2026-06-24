@@ -1,26 +1,26 @@
-# 落梦域_Java-1.21.1p-模组服-帮助
+# 落梦域_Java-26.2p-模组服-帮助
 
 ::: tip 这是一个计划 2026年4月18日
-- 基于 Minecraft 1.21.1+ 进行规划
-- 或是等待 Minecraft Vulkan (1.21.10+) 稳定版
+- 基于 Minecraft 26.2+ 进行规划
+- 或是等待 Minecraft Vulkan (26.2+) 稳定版
 - 模组排序 越靠前的模组越重要
 - 挑选模组 应当选择活跃更新的
 :::
 
 ## 限制
-- tacz 移植版 最高 Minecraft 1.21.1
+- 没有模组适配 Minecraft 26.2
 - 服务端最高 Minecraft 1.21.1
 
 
 
 ## Java
-OpenJDK 21+
+OpenJDK 25+
 - 微软 [下载 Microsoft Build of OpenJDK](https://learn.microsoft.com/zh-cn/java/openjdk/download)
 
 
 
 ## 游戏版本
-1.21.1+
+26.2+
 
 
 
@@ -37,7 +37,7 @@ NeoForge
 - [永恒枪械工坊](https://www.mcmod.cn/class/14980.html) ---> [TaCZ NeoForge Port](https://www.mcmod.cn/class/22403.html)
 - [传送石碑](https://www.mcmod.cn/class/1339.html)
 - [机械动力](https://www.mcmod.cn/class/2021.html)
-    - [机械动力航空学](https://modrinth.com/mod/create-aeronautics)
+    - [机械动力航空学](https://www.mcmod.cn/class/26350.html)
 - [跑酷](https://www.mcmod.cn/class/5958.html)
 - [新生魔艺](https://www.mcmod.cn/class/3468.html)
 - [搬运](https://www.mcmod.cn/class/1081.html)
