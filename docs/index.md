@@ -20,11 +20,11 @@ hero:
 
 features:
   - title: "落梦工作室"
-    details: 公告 帮助 更新日志 贡献
+    details: 帮助 公告 贡献 远近景
     link: /落梦工作室/落梦工作室文档-index
 
   - title: 啸霄领域
-    details: 公告 帮助 更新日志 贡献
+    details: 帮助 公告 贡献 远近景
     link: /啸霄领域/啸霄领域文档-index
 
   - title: 其他
@@ -32,6 +32,6 @@ features:
     link: /其他/其他文档-index
 
   - title: 维护手册
-    details: 文档合作 多平台管理员 设备合作
+    details: 管理规范 法律与合规文件
     link: /维护手册/维护手册-index
 ---

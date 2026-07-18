@@ -15,9 +15,13 @@ hero:
 
 
 
-::: tip 内容均为暂定
-:::
+## 管理规范
+### [文档维护](./文档维护/文档维护.md)
+### [设备维护](./设备维护/设备维护.md)
+### [平台管理员](./平台管理员/平台管理员.md)
 
-## [文档维护](./文档维护/文档维护.md)
-## [设备维护](./设备维护/设备维护.md)
-## [平台管理员](./平台管理员/平台管理员.md)
+## 法律与合规文件
+### [服务条款](https://docs.qq.com/doc/DQ0JQd1ZSdXZtc0lW)
+### [隐私政策](https://docs.qq.com/doc/DQ1BSSXFjT0RCSm9r)
+### [成员协议](https://docs.qq.com/doc/DQ3RNYUNrenFXV0RE)
+### [远程电脑使用协议](https://docs.qq.com/doc/DQ0FDQ2dyZ0VoTEtC)
