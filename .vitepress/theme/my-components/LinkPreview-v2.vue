@@ -100,6 +100,7 @@ const route =                   useRoute(); // 获取当前路由信息
 const previewIsVisible =        ref(false); // 预览窗是否可见
 const previewContentIsLoading = ref(false); // 预览内容是否正在加载
 const previewUrl =              ref('');    // 预览页面 URL
+let scrollPositionY =           0;          // 滚动位置，打开预览前记录
 
 let mutationObserver =          null;       // MutationObserver 接口提供了监视对 DOM 树所做更改的能力。它被设计为旧的 Mutation Events 功能的替代品，该功能是 DOM3 Events 规范的一部分
 
@@ -118,6 +119,36 @@ function resetVariable() {
     previewUrl.value =              '';
 }
 
+// 阻止主页面滚动
+function preventMainPageScroll() {
+
+    // 记录 滚动位置
+    scrollPositionY = window.scrollY;
+
+    // 计算滚动条宽度
+    const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth || 0;
+
+    // 样式
+    document.body.style.position = 'fixed';                                     // 阻止页面滚动
+    document.body.style.top = `-${scrollPositionY}px`;                          // 滚动位置固定
+    document.getElementById("app").style.paddingRight = `${scrollBarWidth}px`;  // 填充 防止内容偏移
+}
+
+// 恢复主页面滚动
+function restoreMainPageScroll() {
+
+    // 延时执行 (避免 VitePress 路由干扰)
+    setTimeout(() => {
+        // 样式
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.getElementById("app").style.paddingRight = '';
+
+        // 滚回 滚动位置
+        window.scrollTo(0, scrollPositionY);
+    }, 100)
+}
+
 // 打开预览窗
 function openPreview(url) {
     previewIsVisible.value = true;
@@ -125,7 +156,7 @@ function openPreview(url) {
     previewUrl.value = url;
 
     // 阻止主页面滚动
-    document.body.style.overflow = 'hidden';
+    preventMainPageScroll();
 
     // 向浏览器历史栈推入一个带有 标识(previewModalOpen) 的新状态
     history.pushState({ previewModalOpen: true }, '');
@@ -138,7 +169,7 @@ function closePreview() {
     previewUrl.value = '';
 
     // 恢复主页面滚动
-    document.body.style.overflow = '';
+    restoreMainPageScroll();
 
     // 通过点击按钮或遮罩层主动关闭的
     // 需要检查当前历史状态是否是主动推入的那个
@@ -293,6 +324,9 @@ function handlePopState(event) {
         previewIsVisible.value = false;
         previewContentIsLoading.value = false;
         previewUrl.value = '';
+
+        // 恢复主页面滚动
+        restoreMainPageScroll();
     }
 }
 
@@ -469,6 +503,10 @@ iframe {
 
 <!-- 
     更新日志
+    2026-07-22: v2.0 更新
+        - 修复 在有滚动条的页面 打开预览窗 下层内容偏移 的问题
+        - 修复 在有滚动条的页面 关闭预览窗 页面滚动到顶部 的问题
+
     2026-05-10: v2.0 发布
         - 打开预览窗 阻止主页面滚动
         - 关闭预览窗 重置状态
