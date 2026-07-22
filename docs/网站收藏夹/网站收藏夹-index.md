@@ -109,6 +109,13 @@ hero:
 
 
 
+## 网速测试
+- [Speed Test](https://speed.cloudflare.com/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/cloudflare.com.ico)
+
+
+
+
+
 ## 云沙箱
 - [微步在线云沙箱](https://s.threatbook.com/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/s.threatbook.com.ico)支持近70种Windows/Linux常见文件类型分析，涵盖可执行文件、脚本、文档、压缩文件、邮件格式等
 
