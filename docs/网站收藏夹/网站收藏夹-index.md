@@ -118,6 +118,8 @@ hero:
 
 ## 云沙箱
 - [微步在线云沙箱](https://s.threatbook.com/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/s.threatbook.com.ico)支持近70种Windows/Linux常见文件类型分析，涵盖可执行文件、脚本、文档、压缩文件、邮件格式等
+- [VirusTotal](https://www.virustotal.com/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/www.virustotal.com.svg)Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community.<br>分析可疑文件、域名、IP 地址和 URL，以检测恶意软件和其他安全漏洞，并自动与安全社区共享这些信息。
+- [ANY.RUN](https://any.run/)![图片](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/images/any.run.png)Empower your SOC performance with ANY.RUN malware analysis & threat intelligence solutions.<br>利用 ANY.RUN 恶意软件分析提升您的 SOC 性能 & 以及威胁情报解决方案。
 
 
 
