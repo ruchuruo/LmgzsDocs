@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 export const profile = {
     id:     "char_001",
     name:   "角色1",
@@ -8,4 +8,4 @@ export const profile = {
 export default profile
 
 console.log("profile 头像: " + profile.avatar)
-</script>
+</script> -->
