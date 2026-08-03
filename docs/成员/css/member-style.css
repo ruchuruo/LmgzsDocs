@@ -21,7 +21,7 @@
 
 /* 未展开 鼠标悬停时的效果 */
 .member-wrapper:not(:has(details[open])):hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 /* 展开 停时的效果 */
@@ -37,18 +37,19 @@
 
 
 /* 成员包装器 成员信息 */
-.member-wrapper .info {
-    transition: 0.33s;
+.member-wrapper .custom-block {
+    margin: 0;
+    transition: 0.22s;
 }
 
-.member-wrapper:not(:has(details[open])):hover .info{
+.member-wrapper:not(:has(details[open])):hover .custom-block{
     background-color: rgba(255, 227, 225, 0.5);
 }
 
 /* 展开 描边 */
-.member-wrapper:has(details[open]) .info {
+.member-wrapper:has(details[open]) .custom-block {
     border-width: 5px;
     border-style: solid;
     border-color: rgba(255, 209, 209, 0.5);
-    transition: 0.33s;
+    transition: 0.11s;
 }
