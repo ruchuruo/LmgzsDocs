@@ -11,8 +11,8 @@
 ![头像 =100x](__LmgzsDocs_STATIC_ASSET_SERVER__/__CUR_DIR__/media/images/avatars/processed/avatar.png)
 :::
 
-::: info .
-<!-- <intro /> -->
+::: details 介绍
+<intro />
 :::
 
 ::: details 同人文
