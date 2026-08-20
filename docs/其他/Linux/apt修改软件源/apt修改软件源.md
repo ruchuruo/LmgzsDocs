@@ -1,4 +1,4 @@
-# 更新软件源
+# apt修改软件源
 
 ## Ubuntu
 记得备份
@@ -19,4 +19,15 @@ apt upgrade
 
 
 ## Debian
-无
+记得备份
+
+打开文件并添加软件源
+```sh
+vi /etc/apt/sources.list
+```
+
+更新软件包列表
+```sh
+apt update
+apt upgrade
+```

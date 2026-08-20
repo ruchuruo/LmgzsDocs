@@ -2,7 +2,7 @@
 
 ## 请求报文
 典型的 HTTP 请求报文
-```c
+```http
 GET /somedir/page.html HTTP/1.1
 Host: example.com
 Connection: close
@@ -66,7 +66,7 @@ Accept-language: fr
 
 ## 响应报文
 典型的 HTTP 响应报文
-```c
+```http
 HTTP/1.1 200 0K
 Connection: close
 Date: Tue, 18 Aug 2015 15:44:04 GMT
