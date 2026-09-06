@@ -43,8 +43,8 @@ export default defineConfig({
     title: "落梦工作室文档",
     description: "A VitePress Site",
 
-    lastUpdated: true,     // 显示最后更新时间
-    ignoreDeadLinks: true, // 当设置为 true 时，VitePress 不会因为死链而导致构建失败。
+    lastUpdated: true, // 显示最后更新时间 (默认值: false)
+    ignoreDeadLinks: 'localhostLinks', // 当设置为 true 时，VitePress 不会因为死链而导致构建失败。 (默认值: false)
 
     head: [
         [   // favicon
