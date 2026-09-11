@@ -302,16 +302,6 @@ OmniQuery.pl -db mdb -e "UPDATE smart_licenses SET last_changed=3376656000;"
 ---
 
 # 结束
-::: info [返回顶部](#secure-firewall-management-center)
-:::
-
-
-
-
-
-
-
-
 
 
 

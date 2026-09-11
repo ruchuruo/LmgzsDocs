@@ -1235,5 +1235,3 @@ Management type           : Configuration and analytics
 ---
 
 # 结束
-::: info [返回顶部](#cisco-firepower-1010)
-:::
