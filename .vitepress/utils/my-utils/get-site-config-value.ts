@@ -3,8 +3,9 @@
     为 .vitepress/config.mts defineConfig 获取值
  */
 
-import getTime from './get-time';
-import getEnvValue from './get-env-value';
+// 自定义工具
+import getTime from './get-time.ts';
+import getEnvValue from './get-env-value.ts';
 
 
 

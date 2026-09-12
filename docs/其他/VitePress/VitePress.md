@@ -7,13 +7,6 @@
 - [VitePress官方拓展](https://vitepress.dev/zh/guide/markdown)
 :::
 
-## 文档样式
-::: info SWKende
-- [github](https://github.com/SWKende)
-- [文档](https://swkende.github.io/swkende-doc/)
-- [文档 - VitePress美化](https://swkende.github.io/swkende-doc/01_VitePress/02_VitePress%E7%BE%8E%E5%8C%96.html)
-:::
-
 ## 矢量图
 ::: info yesicon.app
 - [官网](https://yesicon.app/)

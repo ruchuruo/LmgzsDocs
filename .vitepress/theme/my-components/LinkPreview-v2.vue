@@ -131,7 +131,8 @@ function preventMainPageScroll() {
     // 样式
     document.body.style.position = 'fixed';                                     // 阻止页面滚动
     document.body.style.top = `-${scrollPositionY}px`;                          // 滚动位置固定
-    document.getElementById("app").style.paddingRight = `${scrollBarWidth}px`;  // 填充 防止内容偏移
+    document.body.style.width = '100%';                                         // 防止内容偏移 设置宽度
+    document.getElementById("app").style.paddingRight = `${scrollBarWidth}px`;  // 防止内容偏移 填充 滚动条Y 宽度
 }
 
 // 恢复主页面滚动
@@ -142,6 +143,7 @@ function restoreMainPageScroll() {
         // 样式
         document.body.style.position = '';
         document.body.style.top = '';
+        document.body.style.width = '';
         document.getElementById("app").style.paddingRight = '';
 
         // 滚回 滚动位置
@@ -486,12 +488,12 @@ iframe {
 
 /* 链接预览按钮 */
 .link-preview-button {
-    transform: scale(1.5);
-    margin-left: 12px;
+    transform: scale(1.3);
+    margin-left: 4px;
 }
 
 .link-preview-button:hover {
-    transform: scale(2);
+    transform: scale(1.5);
     transition: 0.33s;
 }
 
@@ -503,6 +505,10 @@ iframe {
 
 <!-- 
     更新日志
+    2026-09-13: v2.0 更新
+        - 修复 在 "vitepress 2.0.0-alpha.20" 打开预览窗 下层内容偏移 的问题
+        - 调整 链接预览按钮 css
+
     2026-07-22: v2.0 更新
         - 修复 在有滚动条的页面 打开预览窗 下层内容偏移 的问题
         - 修复 在有滚动条的页面 关闭预览窗 页面滚动到顶部 的问题

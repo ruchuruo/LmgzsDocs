@@ -1,7 +1,7 @@
 import { type Plugin } from 'vitepress'
 
 // 自定义工具
-import getFileGitTimestamps from '../../utils/my-utils/get-file-git-timestamps'
+import getFileGitTimestamps from '../../utils/my-utils/get-file-git-timestamps.ts'
 
 
 

@@ -1,7 +1,7 @@
 import { type Plugin } from 'vitepress'
 
 // 自定义工具
-import myLoadEnv from './load-env'
+import myLoadEnv from './load-env.ts'
 
 
 

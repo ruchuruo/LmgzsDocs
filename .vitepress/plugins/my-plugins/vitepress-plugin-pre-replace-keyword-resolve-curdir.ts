@@ -2,7 +2,7 @@ import { type Plugin } from 'vitepress'
 import path from 'path'
 
 // 自定义工具
-import getEnvValue from '../../utils/my-utils/get-env-value'
+import getEnvValue from '../../utils/my-utils/get-env-value.ts'
 
 
 
